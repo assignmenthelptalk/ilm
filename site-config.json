@@ -1,0 +1,298 @@
+{
+  "meta": {
+    "siteTitle": "ILM Assignment Help | Level 3, 5 & 7 Leadership Support",
+    "siteDescription": "Professional ILM assignment help for leadership and management students at Level 3, 5, and 7. Work-based evidence, reflective accounts, coaching assignments. Trusted by 5,500+ students.",
+    "siteUrl": "https://ilm-assignment-help.co.uk",
+    "faviconPath": "/favicon.ico",
+    "googleFontsUrl": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+  },
+  "colors": {
+    "primary": "#14532D",
+    "primaryDark": "#0A3019",
+    "accent": "#EAB308",
+    "accentDark": "#CA8A04",
+    "accentLight": "#FEF9C3",
+    "gold": "#EAB308",
+    "goldDark": "#CA8A04",
+    "textBase": "#1A1A2E",
+    "textMuted": "#6B7280",
+    "bgWhite": "#FFFFFF",
+    "bgLight": "#F3F4F6",
+    "bgDark": "#14532D",
+    "borderLight": "#E5E7EB",
+    "starColor": "#F59E0B",
+    "white": "#FFFFFF"
+  },
+  "typography": {
+    "fontFamily": "'Inter', sans-serif"
+  },
+  "header": {
+    "logoText": "ILM Help",
+    "logoHref": "/",
+    "navLinks": [
+      { "label": "Services",      "href": "#services" },
+      { "label": "About",         "href": "#about" },
+      { "label": "How It Works",  "href": "#how-it-works" },
+      { "label": "FAQ",           "href": "#faq" }
+    ],
+    "ctaButton": { "label": "Get Help Now", "href": "#contact" }
+  },
+  "hero": {
+    "headingLine1": "Expert",
+    "headingHighlight": "ILM Assignment Help",
+    "headingLine3": "For Leaders & Managers",
+    "subtext": "Struggling with ILM work-based evidence, reflective accounts, or coaching assignments? Our ILM-qualified writers deliver criterion-referenced, professionally contextualised assignments at every level.",
+    "primaryCta": { "label": "Get Your Assignment Done", "href": "#contact" },
+    "secondaryCta": { "label": "See how it works", "href": "#how-it-works" },
+    "badges": [
+      { "icon": "✓", "text": "100% Plagiarism Free" },
+      { "icon": "✓", "text": "On-Time Delivery" },
+      { "icon": "✓", "text": "Expert ILM Writers" },
+      { "icon": "✓", "text": "Free Revisions" },
+      { "icon": "✓", "text": "Confidential & Secure" }
+    ]
+  },
+  "stats": [
+    { "icon": "🎓", "value": "5,500+", "label": "Assignments Completed" },
+    { "icon": "⭐", "value": "4.9/5",  "label": "Average Rating" },
+    { "icon": "📅", "value": "97%",    "label": "On-Time Delivery" },
+    { "icon": "🏆", "value": "11+",    "label": "Years Experience" }
+  ],
+  "about": {
+    "sectionId": "about",
+    "heading": "Why Students Trust Our ILM Assignment Help",
+    "paragraphs": [
+      "We specialise exclusively in City & Guilds ILM qualifications, with a dedicated team of writers who have direct experience with ILM units, marking criteria, and the work-based evidence standards expected at every level from 2 to 7.",
+      "From ILM Level 3 Team Leading through to Level 7 Senior Leadership and ILM Coaching & Mentoring, our writers understand how ILM assessment works in practice — unit learning outcomes, assessment criteria, reflective practice frameworks, and the professional contextualisation that separates a pass from a distinction."
+    ],
+    "highlights": [
+      "ILM-specialist writers",
+      "Unit-by-unit learning outcome alignment",
+      "Harvard referencing as standard",
+      "Turnitin originality report included"
+    ],
+    "imagePlaceholderAlt": "ILM Assignment Help illustration"
+  },
+  "qualifications": {
+    "sectionId": "services",
+    "heading": "ILM Qualifications We Cover",
+    "subheading": "Expert support across all ILM leadership and management pathways — Level 2 to Level 7.",
+    "cards": [
+      {
+        "icon": "🎓",
+        "title": "ILM Assignment Help",
+        "description": "Expert guidance across all City & Guilds ILM qualifications. Unit-specific writing, criterion-referenced evidence, and reflective account support for every ILM level.",
+        "href": "/ilm-assignment-help/"
+      },
+      {
+        "icon": "📗",
+        "title": "ILM Level 3 Assignment Help",
+        "description": "Specialist support for ILM Level 3 Team Leading and Leadership — unit assignments, work-based evidence, and reflective accounts aligned to ILM Level 3 assessment criteria.",
+        "href": "/ilm-level-3-assignment-help/"
+      },
+      {
+        "icon": "📕",
+        "title": "ILM Level 5 Assignment Help",
+        "description": "Expert help for ILM Level 5 Leadership and Management — complex assignments requiring strategic analysis, evidence-based management practice, and leadership frameworks.",
+        "href": "/ilm-level-5-assignment-help/"
+      },
+      {
+        "icon": "🎖️",
+        "title": "ILM Level 7 Assignment Help",
+        "description": "Advanced support for ILM Level 7 Senior Leadership — doctoral-adjacent assignments requiring critical academic analysis, strategic leadership frameworks, and executive-level recommendations.",
+        "href": "/ilm-level-7-assignment-help/"
+      },
+      {
+        "icon": "🤝",
+        "title": "ILM Coaching and Mentoring Assignment Help",
+        "description": "Specialist support for ILM Coaching & Mentoring qualifications — reflective logs, coaching session records, theoretical framework application, and unit assignment writing.",
+        "href": "/ilm-coaching-and-mentoring-assignment-help/"
+      }
+    ]
+  },
+  "features": {
+    "heading": "What's Included in Every Order",
+    "cards": [
+      {
+        "icon": "📝",
+        "title": "Custom Written Content",
+        "description": "Every piece is written from scratch to your brief, unit outcomes, and word count."
+      },
+      {
+        "icon": "🔍",
+        "title": "Plagiarism Report",
+        "description": "Turnitin originality report included with every submission."
+      },
+      {
+        "icon": "📚",
+        "title": "Full Harvard Referencing",
+        "description": "Properly formatted reference list and in-text citations per ILM assessment requirements."
+      },
+      {
+        "icon": "✏️",
+        "title": "Unlimited Revisions",
+        "description": "Not satisfied? We revise until the work meets your expectations."
+      },
+      {
+        "icon": "🔒",
+        "title": "Strict Confidentiality",
+        "description": "Your identity and order details are never shared with third parties."
+      },
+      {
+        "icon": "⚡",
+        "title": "Express Delivery",
+        "description": "Need it fast? We offer 24-hour turnaround for urgent assignments."
+      }
+    ]
+  },
+  "whyChooseUs": {
+    "heading": "Why Choose Us Over Others",
+    "items": [
+      {
+        "icon": "🎯",
+        "title": "ILM Specialists",
+        "description": "Unlike generic services, we focus solely on City & Guilds ILM leadership and management qualifications across all levels."
+      },
+      {
+        "icon": "👨‍🏫",
+        "title": "Qualified Writers",
+        "description": "All writers hold ILM qualifications or relevant postgraduate credentials with direct experience of ILM assessment criteria and work-based evidence standards."
+      },
+      {
+        "icon": "💬",
+        "title": "Direct Communication",
+        "description": "Message your writer directly via our platform throughout the project."
+      },
+      {
+        "icon": "💰",
+        "title": "Transparent Pricing",
+        "description": "Fixed prices published upfront. No hidden fees, ever."
+      }
+    ]
+  },
+  "testimonials": {
+    "heading": "What Our Students Say",
+    "items": [
+      {
+        "stars": 5,
+        "quote": "Passed my ILM Level 5 leadership unit with distinction. The work-based evidence was perfectly structured and my assessor said it was the best submission in the cohort.",
+        "name": "Rachel D.",
+        "course": "ILM Level 5 Leadership & Management"
+      },
+      {
+        "stars": 5,
+        "quote": "My ILM Level 3 reflective account came back with no revision requests. The writer clearly understood the assessment criteria and contextualised everything to my workplace.",
+        "name": "Tom H.",
+        "course": "ILM Level 3 Team Leading"
+      },
+      {
+        "stars": 5,
+        "quote": "The ILM Level 7 strategic leadership assignment was outstanding — academically rigorous, well-referenced, and delivered a week early. Highly recommend.",
+        "name": "Anita S.",
+        "course": "ILM Level 7 Senior Leadership"
+      }
+    ]
+  },
+  "howItWorks": {
+    "sectionId": "how-it-works",
+    "heading": "How It Works",
+    "subheading": "Four simple steps from brief to brilliant assignment.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Submit Your Brief",
+        "description": "Share your unit details, word count, deadline, and any guidance from your tutor."
+      },
+      {
+        "number": "02",
+        "title": "Get Matched",
+        "description": "We assign your order to a specialist ILM writer within 30 minutes."
+      },
+      {
+        "number": "03",
+        "title": "Track Progress",
+        "description": "Monitor your assignment in real-time and message your writer directly."
+      },
+      {
+        "number": "04",
+        "title": "Download & Submit",
+        "description": "Receive your completed, plagiarism-checked assignment before your deadline."
+      }
+    ]
+  },
+  "faq": {
+    "sectionId": "faq",
+    "heading": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "Is this service specific to ILM qualifications?",
+        "answer": "Yes. We specialise exclusively in City & Guilds ILM qualifications. Our writers are selected for their specific knowledge of ILM units, marking criteria, and grade descriptors — not generic academic writing."
+      },
+      {
+        "question": "Will my assignment be plagiarism free?",
+        "answer": "Every assignment is written from scratch and run through Turnitin before delivery. You receive a copy of the originality report alongside your completed work."
+      },
+      {
+        "question": "How quickly can you complete my assignment?",
+        "answer": "Standard turnaround is 5–7 days. For urgent orders we offer 24-hour and 48-hour expedited delivery at an additional cost. Contact us to confirm availability for your deadline."
+      },
+      {
+        "question": "What if I'm not happy with the work?",
+        "answer": "We offer unlimited free revisions within 14 days of delivery. If we cannot meet your requirements after multiple revisions, we offer a full refund — no questions asked."
+      },
+      {
+        "question": "Is my information kept confidential?",
+        "answer": "Absolutely. We never share your personal information or order details with any third party. Payments are processed through secure, encrypted channels."
+      },
+      {
+        "question": "Which ILM levels and qualifications do you support?",
+        "answer": "We support Level 2 to Level 7 across all City & Guilds ILM qualification pathways including Leadership & Management, Team Leading, Coaching & Mentoring, and Senior Leadership."
+      }
+    ]
+  },
+  "mission": {
+    "heading": "Our Mission",
+    "text": "To empower working professionals pursuing ILM leadership qualifications — providing expert assignment guidance that connects academic frameworks to real workplace practice."
+  },
+  "finalCta": {
+    "heading": "Ready to Excel in Your ILM Qualification?",
+    "subtext": "Join 5,500+ ILM students who've submitted outstanding work-based evidence and reflective accounts with our expert support. Get started in under 2 minutes.",
+    "button": {
+      "label": "Start Your Order Today",
+      "href": "#contact"
+    }
+  },
+  "footer": {
+    "logoText": "ILM Help",
+    "description": "The UK's specialist in ILM leadership and management assignment support. Helping students from Level 2 to Level 7 achieve outstanding results since 2014.",
+    "columns": [
+      {
+        "heading": "Quick Links",
+        "links": [
+          { "label": "Services",     "href": "#services" },
+          { "label": "About Us",     "href": "#about" },
+          { "label": "How It Works", "href": "#how-it-works" },
+          { "label": "FAQ",          "href": "#faq" }
+        ]
+      },
+      {
+        "heading": "ILM Qualifications",
+        "links": [
+          { "label": "ILM Assignment Help",                      "href": "/ilm-assignment-help/" },
+          { "label": "ILM Level 3 Assignment Help",              "href": "/ilm-level-3-assignment-help/" },
+          { "label": "ILM Level 5 Assignment Help",              "href": "/ilm-level-5-assignment-help/" },
+          { "label": "ILM Level 7 Assignment Help",              "href": "/ilm-level-7-assignment-help/" },
+          { "label": "ILM Coaching & Mentoring Help",            "href": "/ilm-coaching-and-mentoring-assignment-help/" }
+        ]
+      },
+      {
+        "heading": "Contact",
+        "links": [
+          { "label": "support@ilm-help.co.uk", "href": "mailto:support@ilm-help.co.uk" },
+          { "label": "WhatsApp Us",             "href": "https://wa.me/447700900000" }
+        ]
+      }
+    ],
+    "copyright": "© 2026 ILM Assignment Help. All rights reserved."
+  }
+}

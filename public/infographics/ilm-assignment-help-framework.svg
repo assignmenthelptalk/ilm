@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 620" width="100%" role="img" aria-labelledby="ilm-hub-title">
+  <title id="ilm-hub-title">ILM Assignment Help Framework: Level 3 Team Leader Supervisor Level 5 Middle Manager Level 7 Senior Leader Postgraduate, Award Certificate Diploma Qualification Types, Work-Based Evidence Criterion Addressing Referral Rule, Gibbs Kolb Schon Reflective Models, Harvard Referencing Level 5 Level 7</title>
+
+  <!-- Background -->
+  <rect width="800" height="620" fill="#F4F7FB" rx="14"/>
+  <!-- Header -->
+  <rect width="800" height="64" fill="#1B3A6B" rx="14"/>
+  <rect y="50" width="800" height="14" fill="#1B3A6B"/>
+  <text x="400" y="28" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">ILM Assignment Framework: Levels, Types, and Assessment Model</text>
+  <text x="400" y="52" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#A8C4E0">Institute of Leadership and Management · Ofqual-Regulated · City &amp; Guilds Group · No Exams — Work-Based Evidence Only</text>
+
+  <!-- Assessment rule banner -->
+  <rect x="28" y="82" width="744" height="26" rx="6" fill="#DC2626"/>
+  <text x="400" y="96" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" fill="#FFFFFF">CRITERION-ADDRESSING RULE: Every criterion in every unit must be individually evidenced — missing ONE criterion = Referral (fail)</text>
+  <text x="400" y="108" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#FECACA">Assessor checks each criterion in the unit specification · Work-based evidence only · No hypothetical scenarios accepted · Criterion mapping before submission</text>
+
+  <!-- Three levels header -->
+  <rect x="28" y="122" width="744" height="22" rx="4" fill="#2563EB"/>
+  <text x="400" y="137" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" fill="#FFFFFF">THREE LEVELS — Audience, Assessment Standard, and Qualification Types</text>
+
+  <!-- Level 3 -->
+  <rect x="28" y="152" width="232" height="152" rx="6" fill="#FFFFFF" stroke="#BFDBFE" stroke-width="1.5"/>
+  <rect x="28" y="152" width="232" height="26" rx="6" fill="#1B3A6B"/>
+  <rect x="28" y="164" width="232" height="14" fill="#1B3A6B"/>
+  <text x="144" y="169" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" fill="#FFFFFF">ILM LEVEL 3</text>
+  <text x="44" y="190" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="700" fill="#374151">Audience: Team leaders · Supervisors</text>
+  <text x="44" y="204" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#374151">Understanding Leadership: Hersey &amp; Blanchard</text>
+  <text x="44" y="218" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#374151">Adair action-centred · Blake &amp; Mouton grid</text>
+  <text x="44" y="232" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#374151">Conflict: Thomas-Kilmann 5 styles</text>
+  <text x="44" y="246" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#374151">Motivation: Maslow · Herzberg 2-factor · McGregor</text>
+  <text x="44" y="260" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#374151">Word count: 1,000–1,500 per unit</text>
+  <text x="44" y="275" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#D97706">Referencing: Recommended but not formally required</text>
+  <text x="44" y="289" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" fill="#374151">Harvard good practice — mandatory from Level 5</text>
+
+  <!-- Level 5 -->
+  <rect x="284" y="152" width="232" height="152" rx="6" fill="#FFFFFF" stroke="#BFDBFE" stroke-width="1.5"/>
+  <rect x="284" y="152" width="232" height="26" rx="6" fill="#2563EB"/>
+  <rect x="284" y="164" width="232" height="14" fill="#2563EB"/>
+  <text x="400" y="169" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" fill="#FFFFFF">ILM LEVEL 5 (highest volume)</text>
+  <text x="300" y="190" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="700" fill="#374151">Audience: Middle managers · Operations managers</text>
+  <text x="300" y="204" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#374151">Leading Innovation &amp; Change: Kotter · Lewin · ADKAR</text>
+  <text x="300" y="218" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#374151">Becoming Effective Leader: 360° feedback · Bass</text>
+  <text x="300" y="232" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#374151">Financial Management: P&amp;L · variance analysis</text>
+  <text x="300" y="246" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#374151">Projects: Mendelow's matrix · risk register</text>
+  <text x="300" y="260" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#374151">Word count: 2,000–3,500 per unit</text>
+  <text x="300" y="275" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#DC2626">Harvard referencing: REQUIRED at Level 5</text>
+  <text x="300" y="289" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" fill="#374151">Employer-sponsored · Criterion mapping essential</text>
+
+  <!-- Level 7 -->
+  <rect x="540" y="152" width="232" height="152" rx="6" fill="#FFFFFF" stroke="#DDD6FE" stroke-width="1.5"/>
+  <rect x="540" y="152" width="232" height="26" rx="6" fill="#7C3AED"/>
+  <rect x="540" y="164" width="232" height="14" fill="#7C3AED"/>
+  <text x="656" y="169" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" fill="#FFFFFF">ILM LEVEL 7 (postgraduate equiv.)</text>
+  <text x="556" y="190" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="700" fill="#374151">Audience: Senior leaders · Directors · NHS exec.</text>
+  <text x="556" y="204" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#374151">Strategic Leadership: Mintzberg · Balanced Scorecard</text>
+  <text x="556" y="218" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#374151">Strategic Change: McKinsey 7S · Burke-Litwin · Cynefin</text>
+  <text x="556" y="232" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#374151">Equality &amp; Diversity: Equality Act 2010 · Edmondson</text>
+  <text x="556" y="246" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#374151">Executive Coaching: GROW · OSCAR · CLEAR · EMCC</text>
+  <text x="556" y="260" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#374151">Scope: Whole organisation — not just own team</text>
+  <text x="556" y="275" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#DC2626">Peer-reviewed journals REQUIRED (not just books)</text>
+  <text x="556" y="289" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" fill="#374151">HBR = practitioner only · Strategic Mgmt Journal</text>
+
+  <!-- Qualification types header -->
+  <rect x="28" y="318" width="744" height="22" rx="4" fill="#D97706"/>
+  <text x="400" y="333" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" fill="#FFFFFF">QUALIFICATION TYPES AT EACH LEVEL: Award · Certificate · Diploma</text>
+
+  <!-- Award -->
+  <rect x="28" y="348" width="232" height="80" rx="6" fill="#FFFFFF" stroke="#FDE68A" stroke-width="1.5"/>
+  <text x="44" y="366" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#92400E">AWARD (shortest)</text>
+  <text x="44" y="381" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#374151">1–3 units · Targeted skill development</text>
+  <text x="44" y="395" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#374151">Often employer-funded for specific capability gap</text>
+  <text x="44" y="409" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" fill="#374151">Lowest credit value · Ofqual-regulated</text>
+
+  <!-- Certificate -->
+  <rect x="284" y="348" width="232" height="80" rx="6" fill="#FFFFFF" stroke="#FDE68A" stroke-width="1.5"/>
+  <text x="300" y="366" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#92400E">CERTIFICATE (medium)</text>
+  <text x="300" y="381" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#374151">4–6 units · More comprehensive qualification</text>
+  <text x="300" y="395" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#374151">Broader management competency coverage</text>
+  <text x="300" y="409" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" fill="#374151">Medium credit value · Ofqual-regulated</text>
+
+  <!-- Diploma -->
+  <rect x="540" y="348" width="232" height="80" rx="6" fill="#FFFFFF" stroke="#DDD6FE" stroke-width="1.5"/>
+  <text x="556" y="366" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#7C3AED">DIPLOMA (full qualification)</text>
+  <text x="556" y="381" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#374151">Full qualification · Highest credit value</text>
+  <text x="556" y="395" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#374151">Most credible for career progression</text>
+  <text x="556" y="409" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" fill="#374151">Most comprehensive management competence evidence</text>
+
+  <!-- Reflective models strip -->
+  <rect x="28" y="442" width="744" height="60" rx="6" fill="#FFFFFF" stroke="#BFDBFE" stroke-width="1.5"/>
+  <text x="44" y="460" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#1D4ED8">REFLECTIVE MODELS — Analysis Stage = Where Marks Are Concentrated</text>
+  <text x="44" y="475" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#374151">Gibbs (1988): Description · Feelings · Evaluation · Analysis (theory connection — most important) · Conclusion · Action Plan</text>
+  <text x="44" y="489" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#374151">Kolb (1984): Concrete Experience → Reflective Observation → Abstract Conceptualisation (theory) → Active Experimentation · Schon (1983): reflection-on-action vs in-action</text>
+
+  <!-- ILM vs CMI strip -->
+  <rect x="28" y="516" width="744" height="40" rx="6" fill="#1B3A6B"/>
+  <text x="400" y="531" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">ILM vs CMI: ILM = more practical and work-evidence-based · CMI (Chartered Management Institute) = more academically oriented → Chartered Manager (CMgr) status</text>
+  <text x="400" y="547" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#A8C4E0">Both Ofqual-regulated management qualifications · ILM pathway: Levels 3→5→7 · All levels: work-based, criterion-referenced, no exams</text>
+
+  <!-- Footer -->
+  <text x="400" y="610" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" fill="#9CA3AF">ILM Assignment Help Service · ILM Qualification Framework — Levels 3, 5 and 7</text>
+</svg>

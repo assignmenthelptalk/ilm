@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" role="img" aria-labelledby="ilm-level3-title">
+  <title id="ilm-level3-title">ILM Level 3 Assignment Units: Understanding Leadership Hersey Blanchard Adair Blake Mouton, Conflict Management Thomas-Kilmann Five Styles, Motivating People Maslow Herzberg Two Factor McGregor Theory X Y, Managing Workplace Projects Risk Register, Gibbs Reflective Cycle Analysis Stage</title>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="#F4F7FB" rx="14"/>
+  <!-- Header -->
+  <rect width="800" height="64" fill="#1B3A6B" rx="14"/>
+  <rect y="50" width="800" height="14" fill="#1B3A6B"/>
+  <text x="400" y="28" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">ILM Level 3: Team Leader Assignment Units and Leadership Theories</text>
+  <text x="400" y="52" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#A8C4E0">Team Leaders · Supervisors · Entry-Level Management · 1,000–1,500 words per unit · Work-Based Evidence Required</text>
+
+  <!-- Critical rule -->
+  <rect x="28" y="82" width="744" height="22" rx="4" fill="#DC2626"/>
+  <text x="400" y="97" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" fill="#FFFFFF">CRITERION RULE: Every assessment criterion must be individually addressed — one missed criterion = Referral regardless of overall quality</text>
+
+  <!-- 4 Unit columns header -->
+  <rect x="28" y="118" width="744" height="20" rx="4" fill="#2563EB"/>
+  <text x="400" y="132" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">4 CORE UNITS — Theory Components and Work-Based Evidence Requirements</text>
+
+  <!-- Understanding Leadership -->
+  <rect x="28" y="146" width="178" height="220" rx="6" fill="#FFFFFF" stroke="#BFDBFE" stroke-width="1.5"/>
+  <rect x="28" y="146" width="178" height="22" rx="6" fill="#1B3A6B"/>
+  <rect x="28" y="157" width="178" height="11" fill="#1B3A6B"/>
+  <text x="117" y="161" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#FFFFFF">UNDERSTANDING LEADERSHIP</text>
+  <text x="40" y="180" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Hersey &amp; Blanchard:</text>
+  <text x="40" y="193" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">S1 Directing (low R, low C)</text>
+  <text x="40" y="205" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">S2 Coaching (low R, high C)</text>
+  <text x="40" y="217" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">S3 Supporting (high R, low C)</text>
+  <text x="40" y="229" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">S4 Delegating (high R, high C)</text>
+  <line x1="40" y1="235" x2="196" y2="235" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="40" y="246" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Adair: Task · Team · Individual</text>
+  <text x="40" y="258" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">3 overlapping circles — balance all</text>
+  <line x1="40" y1="264" x2="196" y2="264" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="40" y="275" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Blake &amp; Mouton grid:</text>
+  <text x="40" y="287" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">9,9 = Team Leader (ideal)</text>
+  <text x="40" y="299" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">9,1 = Produce or Perish</text>
+  <text x="40" y="311" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">1,9 = Country Club</text>
+  <text x="40" y="327" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#DC2626">Distinction: Is 9,9 achievable in your context?</text>
+  <text x="40" y="339" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#D97706">Adapt style per team member readiness</text>
+  <text x="40" y="355" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7" fill="#374151">Evidence: real team leader situation</text>
+
+  <!-- Conflict Management -->
+  <rect x="220" y="146" width="178" height="220" rx="6" fill="#FFFFFF" stroke="#BFDBFE" stroke-width="1.5"/>
+  <rect x="220" y="146" width="178" height="22" rx="6" fill="#2563EB"/>
+  <rect x="220" y="157" width="178" height="11" fill="#2563EB"/>
+  <text x="309" y="161" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#FFFFFF">CONFLICT MANAGEMENT</text>
+  <text x="232" y="180" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Thomas-Kilmann 5 styles:</text>
+  <text x="232" y="193" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Competing: win-lose · emergencies</text>
+  <text x="232" y="205" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Collaborating: win-win · most durable</text>
+  <text x="232" y="217" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Compromising: partial satisfaction</text>
+  <text x="232" y="229" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Avoiding: low-stakes disputes only</text>
+  <text x="232" y="241" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Accommodating: relationship &gt; outcome</text>
+  <line x1="232" y1="248" x2="388" y2="248" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="232" y="260" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Conflict sources:</text>
+  <text x="232" y="272" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Role ambiguity · resource scarcity</text>
+  <text x="232" y="284" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Communication breakdown · change</text>
+  <line x1="232" y1="291" x2="388" y2="291" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="232" y="305" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#DC2626">Distinction: Was the style appropriate?</text>
+  <text x="232" y="317" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Evaluate: competing vs avoiding for</text>
+  <text x="232" y="329" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">conduct issues — what would differ?</text>
+  <text x="232" y="345" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7" fill="#374151">Evidence: real conflict situation managed</text>
+  <text x="232" y="355" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7" fill="#374151">Thomas-Kilmann (1974)</text>
+
+  <!-- Motivating People -->
+  <rect x="412" y="146" width="178" height="220" rx="6" fill="#FFFFFF" stroke="#BFDBFE" stroke-width="1.5"/>
+  <rect x="412" y="146" width="178" height="22" rx="6" fill="#1B3A6B"/>
+  <rect x="412" y="157" width="178" height="11" fill="#1B3A6B"/>
+  <text x="501" y="161" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#FFFFFF">MOTIVATING PEOPLE</text>
+  <text x="424" y="180" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Maslow (1943) 5 levels:</text>
+  <text x="424" y="193" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Physiological → Safety → Belonging</text>
+  <text x="424" y="205" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">→ Esteem → Self-actualisation</text>
+  <text x="424" y="217" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Deficit hierarchy: lower must be met first</text>
+  <line x1="424" y1="224" x2="580" y2="224" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="424" y="236" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Herzberg (1959) 2-factor:</text>
+  <text x="424" y="248" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Hygiene factors: prevent dissatisfaction</text>
+  <text x="424" y="260" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">(salary, conditions, security)</text>
+  <text x="424" y="272" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Motivators: create genuine motivation</text>
+  <text x="424" y="284" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">(recognition, responsibility, growth)</text>
+  <line x1="424" y1="291" x2="580" y2="291" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="424" y="303" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">McGregor Theory X/Y:</text>
+  <text x="424" y="315" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">X: people lazy → control · Y: seek responsibility</text>
+  <text x="424" y="330" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#DC2626">Distinction: hygiene vs motivators in your team</text>
+  <text x="424" y="344" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Which assumption drives your style?</text>
+  <text x="424" y="355" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7" fill="#374151">Wahba &amp; Bridwell (1976): Maslow limitations</text>
+
+  <!-- Projects -->
+  <rect x="604" y="146" width="168" height="220" rx="6" fill="#FFFFFF" stroke="#DDD6FE" stroke-width="1.5"/>
+  <rect x="604" y="146" width="168" height="22" rx="6" fill="#7C3AED"/>
+  <rect x="604" y="157" width="168" height="11" fill="#7C3AED"/>
+  <text x="688" y="161" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#FFFFFF">WORKPLACE PROJECTS</text>
+  <text x="616" y="180" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Evidence: real project at team level</text>
+  <text x="616" y="193" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Gantt chart (simple — Excel/hand-drawn)</text>
+  <text x="616" y="205" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Tasks · dependencies · milestones</text>
+  <line x1="616" y1="212" x2="762" y2="212" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="616" y="224" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Risk register:</text>
+  <text x="616" y="236" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Description · likelihood · impact</text>
+  <text x="616" y="248" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Mitigation action per risk</text>
+  <line x1="616" y1="255" x2="762" y2="255" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="616" y="267" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Stakeholders:</text>
+  <text x="616" y="279" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Who needs what info, when, how</text>
+  <line x1="616" y1="286" x2="762" y2="286" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="616" y="300" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#DC2626">Distinction: evaluate what worked</text>
+  <text x="616" y="312" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Did risk mitigation work?</text>
+  <text x="616" y="324" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">What would you do differently?</text>
+  <text x="616" y="340" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7" fill="#374151">Real project — rota, training, stock-take</text>
+  <text x="616" y="352" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7" fill="#374151">No hypothetical scenarios accepted</text>
+
+  <!-- Gibbs cycle -->
+  <rect x="28" y="380" width="744" height="90" rx="6" fill="#FFFBEB" stroke="#FDE68A" stroke-width="1.5"/>
+  <text x="44" y="398" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#92400E">GIBBS (1988) REFLECTIVE CYCLE — Analysis Stage = Theory Connection = Where Marks Are Concentrated</text>
+  <text x="44" y="413" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#374151">① Description (brief — 2–3 sentences) · ② Feelings (brief — 2–3 sentences) · ③ Evaluation (what went well/did not) · ④ Analysis ← MOST IMPORTANT: connect to leadership/motivation/conflict theory</text>
+  <text x="44" y="428" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#374151">⑤ Conclusion (what else could have been done) · ⑥ Action Plan — SPECIFIC: "I will introduce X by [date]" not "I will improve communication"</text>
+  <text x="44" y="443" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#DC2626">Common error: 80% word count on Description and Feelings — no Analysis stage reached = no theory connection = criteria not met at Merit/Distinction</text>
+  <text x="44" y="458" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" fill="#374151">Kolb (1984): Concrete Experience → Reflective Observation → Abstract Conceptualisation (theory) → Active Experimentation — theory connection in stage 3</text>
+
+  <!-- Footer -->
+  <text x="400" y="590" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" fill="#9CA3AF">ILM Assignment Help Service · ILM Level 3 Team Leader Unit Framework</text>
+</svg>

@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 640" width="100%" role="img" aria-labelledby="ilm-level7-title">
+  <title id="ilm-level7-title">ILM Level 7 Strategic Frameworks: Mintzberg Ten Schools Balanced Scorecard Heifetz Adaptive Leadership, McKinsey 7S Burke-Litwin Cynefin Strategic Change, Equality Act 2010 Edmondson Psychological Safety Inclusive Leadership, Executive Coaching GROW OSCAR CLEAR EMCC ICF, Peer-Reviewed Journals Harvard Referencing Postgraduate Standard</title>
+
+  <!-- Background -->
+  <rect width="800" height="640" fill="#F4F7FB" rx="14"/>
+  <!-- Header -->
+  <rect width="800" height="64" fill="#1B3A6B" rx="14"/>
+  <rect y="50" width="800" height="14" fill="#1B3A6B"/>
+  <text x="400" y="28" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">ILM Level 7: Postgraduate-Equivalent Strategic Leadership Framework</text>
+  <text x="400" y="52" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#A8C4E0">Senior Leaders · Directors · NHS Executives · Postgraduate RQF Standard · Peer-Reviewed Journals Required · Whole-Organisation Scope</text>
+
+  <!-- Postgraduate standard banner -->
+  <rect x="28" y="82" width="744" height="26" rx="6" fill="#7C3AED"/>
+  <text x="400" y="96" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" fill="#FFFFFF">POSTGRADUATE STANDARD: Strategic scope = whole organisation · Peer-reviewed journals (not books alone) · Critical evaluation not application</text>
+  <text x="400" y="108" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#E9D5FF">HBR = practitioner (not peer-reviewed) · Strategic Management Journal · Leadership Quarterly · Journal of Applied Psychology = primary sources</text>
+
+  <!-- 4 Units header -->
+  <rect x="28" y="122" width="744" height="20" rx="4" fill="#2563EB"/>
+  <text x="400" y="136" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">4 CORE UNITS — Strategic Frameworks and Postgraduate Distinction Criteria</text>
+
+  <!-- Developing Strategic Leadership -->
+  <rect x="28" y="150" width="232" height="210" rx="6" fill="#FFFFFF" stroke="#DDD6FE" stroke-width="1.5"/>
+  <rect x="28" y="150" width="232" height="22" rx="6" fill="#7C3AED"/>
+  <rect x="28" y="162" width="232" height="10" fill="#7C3AED"/>
+  <text x="144" y="166" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#FFFFFF">DEVELOPING STRATEGIC LEADERSHIP</text>
+  <text x="40" y="184" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#374151">Mintzberg 10 schools (prescriptive):</text>
+  <text x="40" y="196" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Design (SWOT) · Planning (formal) · Positioning (Porter)</text>
+  <text x="40" y="208" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#374151">Descriptive schools:</text>
+  <text x="40" y="220" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Entrepreneurial · Cognitive · Learning (emergent)</text>
+  <text x="40" y="232" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Power · Cultural · Environmental · Configurational</text>
+  <line x1="40" y1="238" x2="250" y2="238" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="40" y="250" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#374151">Balanced Scorecard (Kaplan &amp; Norton, 1996):</text>
+  <text x="40" y="262" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Financial · Customer · Internal Processes</text>
+  <text x="40" y="274" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Learning &amp; Growth · Strategy maps</text>
+  <text x="40" y="286" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Leading vs lagging indicators</text>
+  <line x1="40" y1="292" x2="250" y2="292" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="40" y="304" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#374151">Heifetz: adaptive leadership</text>
+  <text x="40" y="316" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Technical (known solution) vs Adaptive (learn)</text>
+  <text x="40" y="330" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#DC2626">Distinction: which school describes your org?</text>
+  <text x="40" y="342" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Evaluate adaptive challenges in your context</text>
+  <text x="40" y="354" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7" fill="#374151">Heifetz, R.A. (1994) · Kaplan &amp; Norton (1996)</text>
+
+  <!-- Strategic Change -->
+  <rect x="276" y="150" width="248" height="210" rx="6" fill="#FFFFFF" stroke="#BFDBFE" stroke-width="1.5"/>
+  <rect x="276" y="150" width="248" height="22" rx="6" fill="#1B3A6B"/>
+  <rect x="276" y="162" width="248" height="10" fill="#1B3A6B"/>
+  <text x="400" y="166" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#FFFFFF">UNDERSTANDING STRATEGIC CHANGE</text>
+  <text x="288" y="184" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#374151">McKinsey 7S (7 elements):</text>
+  <text x="288" y="196" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Hard: Strategy · Structure · Systems</text>
+  <text x="288" y="208" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Soft: Shared Values · Style · Staff · Skills</text>
+  <text x="288" y="220" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Hard elements easier to change; soft = sustainability</text>
+  <line x1="288" y1="226" x2="514" y2="226" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="288" y="238" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#374151">Burke-Litwin causal model:</text>
+  <text x="288" y="250" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Transformational: leadership · mission · culture</text>
+  <text x="288" y="262" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Transactional: mgmt practices · structure · systems</text>
+  <text x="288" y="274" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Was change driven at transformational level?</text>
+  <line x1="288" y1="280" x2="514" y2="280" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="288" y="292" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#374151">Cynefin (Snowden) domains:</text>
+  <text x="288" y="304" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Simple · Complicated · Complex · Chaotic</text>
+  <text x="288" y="316" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Complex: no known solution, emergent practice</text>
+  <text x="288" y="330" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#DC2626">Distinction: 7S alignment evaluation across all 7</text>
+  <text x="288" y="342" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Transactional-only change vs transformational = unsustainable</text>
+  <text x="288" y="354" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7" fill="#374151">Organisational scope: whole org, not just own team</text>
+
+  <!-- Equality + Executive Coaching -->
+  <rect x="540" y="150" width="232" height="210" rx="6" fill="#FFFFFF" stroke="#BFDBFE" stroke-width="1.5"/>
+  <rect x="540" y="150" width="232" height="22" rx="6" fill="#2563EB"/>
+  <rect x="540" y="162" width="232" height="10" fill="#2563EB"/>
+  <text x="656" y="166" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#FFFFFF">EQUALITY + EXECUTIVE COACHING</text>
+  <text x="552" y="184" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#374151">Equality Act 2010 — 9 characteristics:</text>
+  <text x="552" y="196" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Age · Disability · Gender reassignment</text>
+  <text x="552" y="208" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Race · Religion · Sex · Sexual orientation</text>
+  <text x="552" y="220" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Marriage/Civil partnership · Pregnancy/Maternity</text>
+  <text x="552" y="232" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Edmondson (1999): psychological safety</text>
+  <text x="552" y="244" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Bourke &amp; Titus: 6 inclusive leader traits</text>
+  <line x1="552" y1="250" x2="762" y2="250" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="552" y="262" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#374151">Executive Coaching models:</text>
+  <text x="552" y="274" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">GROW: Goal·Reality·Options·Will (Whitmore, 2002)</text>
+  <text x="552" y="286" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">OSCAR: Outcome·Situation·Choices·Actions·Review</text>
+  <text x="552" y="298" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">CLEAR: Contracting·Listening·Exploring·Action·Review</text>
+  <text x="552" y="310" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">EMCC 8 competencies · ICF 8 core competencies</text>
+  <text x="552" y="322" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Supervision: professional reflection with supervisor</text>
+  <text x="552" y="336" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#DC2626">Distinction: GROW limitations for complex coaching</text>
+  <text x="552" y="348" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Premature solution focus; CLEAR for identity coaching</text>
+  <text x="552" y="354" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7" fill="#374151">6+ session logs · senior leader coachees · supervision evidence</text>
+
+  <!-- Referencing standard -->
+  <rect x="28" y="374" width="744" height="86" rx="6" fill="#FFFFFF" stroke="#DDD6FE" stroke-width="1.5"/>
+  <text x="44" y="392" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#7C3AED">REFERENCING STANDARD AT LEVEL 7 — Peer-Reviewed vs Practitioner</text>
+  <text x="44" y="408" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#374151">Peer-reviewed REQUIRED: Strategic Management Journal · Leadership Quarterly · Journal of Applied Psychology · Journal of Organizational Behavior · Human Relations</text>
+  <text x="44" y="423" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#374151">Key academic texts: Mintzberg (1994) Rise and Fall of Strategic Planning · Kaplan &amp; Norton (1996) The Balanced Scorecard · Heifetz (1994) Leadership Without Easy Answers</text>
+  <text x="44" y="438" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#374151">Porter (1985) Competitive Advantage · Edmondson (1999) Psychological safety — Admin. Science Quarterly, 44(2), pp.350–383</text>
+  <text x="44" y="453" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#DC2626">HBR = practitioner — supplements but CANNOT replace peer-reviewed academic foundations · Citation tools: Zotero, Mendeley, EndNote recommended</text>
+
+  <!-- Level 5 vs Level 7 comparison -->
+  <rect x="28" y="474" width="744" height="42" rx="6" fill="#1B3A6B"/>
+  <text x="400" y="490" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">LEVEL 5 vs LEVEL 7: Level 5 = team and function scope · Level 7 = whole-organisation strategic scope · Level 5 = management textbooks · Level 7 = peer-reviewed journals</text>
+  <text x="400" y="507" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#A8C4E0">360° feedback at L7: political complexity of board-level and subordinate perspectives · Development plan: strategic org outcomes, not personal skill development</text>
+
+  <!-- Footer -->
+  <text x="400" y="630" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" fill="#9CA3AF">ILM Assignment Help Service · ILM Level 7 Postgraduate Strategic Leadership Framework</text>
+</svg>
