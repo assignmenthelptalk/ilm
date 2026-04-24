@@ -448,7 +448,14 @@
           "slug": "ilm-level-5-assignment-help"
         }
       ],
-      "contextualQuestion": "How does the shift from descriptive writing to evaluative reflection define the quality difference between a passing and a strong ILM assignment submission?"
+      "contextualQuestion": "How does the shift from descriptive writing to evaluative reflection define the quality difference between a passing and a strong ILM assignment submission?",
+      "headerImage": {
+        "src": "/header_ilm-reflective-account-writing-help.webp",
+        "alt": "ILM Reflective Account Writing Help header image",
+        "title": "ILM Reflective Account Writing Help",
+        "width": 1200,
+        "height": 400
+      }
     },
     {
       "slug": "ilm-work-based-evidence-guide",
@@ -502,7 +509,14 @@
           "slug": "ilm-level-5-assignment-help"
         }
       ],
-      "contextualQuestion": "How does ILM's CASER evidence criteria framework define what assessors look for when evaluating the quality and sufficiency of work-based portfolio submissions?"
+      "contextualQuestion": "How does ILM's CASER evidence criteria framework define what assessors look for when evaluating the quality and sufficiency of work-based portfolio submissions?",
+      "headerImage": {
+        "src": "/header_ilm-work-based-evidence-guide.webp",
+        "alt": "ILM Work-Based Evidence Guide header image",
+        "title": "ILM Work-Based Evidence Guide",
+        "width": 1200,
+        "height": 400
+      }
     },
     {
       "slug": "ilm-level-5-leadership-unit-assignment-help",
@@ -552,7 +566,14 @@
           "slug": "leadership-styles-and-theories-for-ilm-assignments"
         }
       ],
-      "contextualQuestion": "How does critical self-evaluation of personal leadership practice, informed by theory, define the depth difference between a pass and a strong submission in ILM Level 5 leadership units?"
+      "contextualQuestion": "How does critical self-evaluation of personal leadership practice, informed by theory, define the depth difference between a pass and a strong submission in ILM Level 5 leadership units?",
+      "headerImage": {
+        "src": "/header_ilm-level-5-leadership-unit-assignment-help.webp",
+        "alt": "ILM Level 5 Leadership Unit Assignment Help header image",
+        "title": "ILM Level 5 Leadership Unit Assignment Help",
+        "width": 1200,
+        "height": 400
+      }
     },
     {
       "slug": "ilm-level-5-management-unit-assignment-help",
@@ -602,7 +623,14 @@
           "slug": "ilm-reflective-account-writing-help"
         }
       ],
-      "contextualQuestion": "How does applying organisational analysis tools to a real workplace context define the critical thinking expected in ILM Level 5 management unit assignments?"
+      "contextualQuestion": "How does applying organisational analysis tools to a real workplace context define the critical thinking expected in ILM Level 5 management unit assignments?",
+      "headerImage": {
+        "src": "/header_ilm-level-5-management-unit-assignment-help.webp",
+        "alt": "ILM Level 5 Management Unit Assignment Help header image",
+        "title": "ILM Level 5 Management Unit Assignment Help",
+        "width": 1200,
+        "height": 400
+      }
     },
     {
       "slug": "ilm-level-7-strategic-leadership-assignment-help",
@@ -652,7 +680,14 @@
           "slug": "ilm-reflective-account-writing-help"
         }
       ],
-      "contextualQuestion": "How does synthesising competing strategic frameworks within an organisational context define the postgraduate critical thinking standard expected in ILM Level 7 assignment submissions?"
+      "contextualQuestion": "How does synthesising competing strategic frameworks within an organisational context define the postgraduate critical thinking standard expected in ILM Level 7 assignment submissions?",
+      "headerImage": {
+        "src": "/header_ilm-level-7-strategic-leadership-assignment-help.webp",
+        "alt": "ILM Level 7 Strategic Leadership Assignment Help header image",
+        "title": "ILM Level 7 Strategic Leadership Assignment Help",
+        "width": 1200,
+        "height": 400
+      }
     },
     {
       "slug": "ilm-level-3-team-leader-assignment-help",
@@ -702,7 +737,14 @@
           "slug": "ilm-assignment-help"
         }
       ],
-      "contextualQuestion": "How does applying motivation and team development theory to first-line supervisory practice define the evidence depth expected in ILM Level 3 unit assignments?"
+      "contextualQuestion": "How does applying motivation and team development theory to first-line supervisory practice define the evidence depth expected in ILM Level 3 unit assignments?",
+      "headerImage": {
+        "src": "/header_ilm-level-3-team-leader-assignment-help.webp",
+        "alt": "ILM Level 3 Team Leader Assignment Help header image",
+        "title": "ILM Level 3 Team Leader Assignment Help",
+        "width": 1200,
+        "height": 400
+      }
     },
     {
       "slug": "ilm-assignment-referral-and-resubmission-guide",
@@ -752,7 +794,14 @@
           "slug": "ilm-reflective-account-writing-help"
         }
       ],
-      "contextualQuestion": "How do the specific referral feedback limitations imposed by City & Guilds quality assurance standards create the gap that ILM assignment help services are designed to address?"
+      "contextualQuestion": "How do the specific referral feedback limitations imposed by City & Guilds quality assurance standards create the gap that ILM assignment help services are designed to address?",
+      "headerImage": {
+        "src": "/header_ilm-assignment-referral-and-resubmission-guide.webp",
+        "alt": "ILM Assignment Referral and Resubmission Guide header image",
+        "title": "ILM Assignment Referral and Resubmission Guide",
+        "width": 1200,
+        "height": 400
+      }
     },
     {
       "slug": "leadership-styles-and-theories-for-ilm-assignments",
@@ -802,7 +851,14 @@
           "slug": "ilm-level-7-strategic-leadership-assignment-help"
         }
       ],
-      "contextualQuestion": "How does the progression from describing to critically synthesising leadership theories define the intellectual expectations of ILM assignments across the Level 3 to Level 7 qualification ladder?"
+      "contextualQuestion": "How does the progression from describing to critically synthesising leadership theories define the intellectual expectations of ILM assignments across the Level 3 to Level 7 qualification ladder?",
+      "headerImage": {
+        "src": "/header_leadership-styles-and-theories-for-ilm-assignments.webp",
+        "alt": "Leadership Styles and Theories for ILM Assignments header image",
+        "title": "Leadership Styles and Theories for ILM Assignments",
+        "width": 1200,
+        "height": 400
+      }
     },
     {
       "slug": "ilm-level-4-assignment-help",
@@ -848,7 +904,14 @@
           "slug": "ilm-reflective-account-writing-help"
         }
       ],
-      "contextualQuestion": "How does ILM Level 4's bridging position between operational and strategic management define what evidence depth and theoretical engagement assessors expect in submissions?"
+      "contextualQuestion": "How does ILM Level 4's bridging position between operational and strategic management define what evidence depth and theoretical engagement assessors expect in submissions?",
+      "headerImage": {
+        "src": "/header_ilm-level-4-assignment-help.webp",
+        "alt": "ILM Level 4 Assignment Help header image",
+        "title": "ILM Level 4 Assignment Help",
+        "width": 1200,
+        "height": 400
+      }
     },
     {
       "slug": "ilm-assignment-harvard-referencing-guide",
@@ -898,7 +961,14 @@
           "slug": "ilm-level-7-strategic-leadership-assignment-help"
         }
       ],
-      "contextualQuestion": "How does correct Harvard referencing connect to the academic credibility requirements that separate a pass from a strong submission in ILM Level 5 and Level 7 assignments?"
+      "contextualQuestion": "How does correct Harvard referencing connect to the academic credibility requirements that separate a pass from a strong submission in ILM Level 5 and Level 7 assignments?",
+      "headerImage": {
+        "src": "/header_ilm-assignment-harvard-referencing-guide.webp",
+        "alt": "ILM Assignment Harvard Referencing Guide header image",
+        "title": "ILM Assignment Harvard Referencing Guide",
+        "width": 1200,
+        "height": 400
+      }
     }
   ]
 }
