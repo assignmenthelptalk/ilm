@@ -30,33 +30,91 @@
     "logoText": "ILM Help",
     "logoHref": "/",
     "navLinks": [
-      { "label": "Services",      "href": "#services" },
-      { "label": "About",         "href": "#about" },
-      { "label": "How It Works",  "href": "#how-it-works" },
-      { "label": "FAQ",           "href": "#faq" }
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "About",
+        "href": "#about"
+      },
+      {
+        "label": "How It Works",
+        "href": "#how-it-works"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      }
     ],
-    "ctaButton": { "label": "Get Help Now", "href": "#contact" }
+    "ctaButton": {
+      "label": "Get Help Now",
+      "href": "#contact"
+    }
   },
   "hero": {
     "headingLine1": "Expert",
     "headingHighlight": "ILM Assignment Help",
     "headingLine3": "For Leaders & Managers",
     "subtext": "Struggling with ILM work-based evidence, reflective accounts, or coaching assignments? Our ILM-qualified writers deliver criterion-referenced, professionally contextualised assignments at every level.",
-    "primaryCta": { "label": "Get Your Assignment Done", "href": "#contact" },
-    "secondaryCta": { "label": "See how it works", "href": "#how-it-works" },
+    "primaryCta": {
+      "label": "Get Your Assignment Done",
+      "href": "#contact"
+    },
+    "secondaryCta": {
+      "label": "See how it works",
+      "href": "#how-it-works"
+    },
     "badges": [
-      { "icon": "✓", "text": "100% Plagiarism Free" },
-      { "icon": "✓", "text": "On-Time Delivery" },
-      { "icon": "✓", "text": "Expert ILM Writers" },
-      { "icon": "✓", "text": "Free Revisions" },
-      { "icon": "✓", "text": "Confidential & Secure" }
-    ]
+      {
+        "icon": "✓",
+        "text": "100% Plagiarism Free"
+      },
+      {
+        "icon": "✓",
+        "text": "On-Time Delivery"
+      },
+      {
+        "icon": "✓",
+        "text": "Expert ILM Writers"
+      },
+      {
+        "icon": "✓",
+        "text": "Free Revisions"
+      },
+      {
+        "icon": "✓",
+        "text": "Confidential & Secure"
+      }
+    ],
+    "heroImage": {
+      "src": "/hero-ilm.webp",
+      "alt": "ILM assignment help expert working with a leadership student in the UK",
+      "width": 660,
+      "height": 500
+    }
   },
   "stats": [
-    { "icon": "🎓", "value": "5,500+", "label": "Assignments Completed" },
-    { "icon": "⭐", "value": "4.9/5",  "label": "Average Rating" },
-    { "icon": "📅", "value": "97%",    "label": "On-Time Delivery" },
-    { "icon": "🏆", "value": "11+",    "label": "Years Experience" }
+    {
+      "icon": "🎓",
+      "value": "5,500+",
+      "label": "Assignments Completed"
+    },
+    {
+      "icon": "⭐",
+      "value": "4.9/5",
+      "label": "Average Rating"
+    },
+    {
+      "icon": "📅",
+      "value": "97%",
+      "label": "On-Time Delivery"
+    },
+    {
+      "icon": "🏆",
+      "value": "11+",
+      "label": "Years Experience"
+    }
   ],
   "about": {
     "sectionId": "about",
@@ -269,27 +327,60 @@
       {
         "heading": "Quick Links",
         "links": [
-          { "label": "Services",     "href": "#services" },
-          { "label": "About Us",     "href": "#about" },
-          { "label": "How It Works", "href": "#how-it-works" },
-          { "label": "FAQ",          "href": "#faq" }
+          {
+            "label": "Services",
+            "href": "#services"
+          },
+          {
+            "label": "About Us",
+            "href": "#about"
+          },
+          {
+            "label": "How It Works",
+            "href": "#how-it-works"
+          },
+          {
+            "label": "FAQ",
+            "href": "#faq"
+          }
         ]
       },
       {
         "heading": "ILM Qualifications",
         "links": [
-          { "label": "ILM Assignment Help",                      "href": "/ilm-assignment-help/" },
-          { "label": "ILM Level 3 Assignment Help",              "href": "/ilm-level-3-assignment-help/" },
-          { "label": "ILM Level 5 Assignment Help",              "href": "/ilm-level-5-assignment-help/" },
-          { "label": "ILM Level 7 Assignment Help",              "href": "/ilm-level-7-assignment-help/" },
-          { "label": "ILM Coaching & Mentoring Help",            "href": "/ilm-coaching-and-mentoring-assignment-help/" }
+          {
+            "label": "ILM Assignment Help",
+            "href": "/ilm-assignment-help/"
+          },
+          {
+            "label": "ILM Level 3 Assignment Help",
+            "href": "/ilm-level-3-assignment-help/"
+          },
+          {
+            "label": "ILM Level 5 Assignment Help",
+            "href": "/ilm-level-5-assignment-help/"
+          },
+          {
+            "label": "ILM Level 7 Assignment Help",
+            "href": "/ilm-level-7-assignment-help/"
+          },
+          {
+            "label": "ILM Coaching & Mentoring Help",
+            "href": "/ilm-coaching-and-mentoring-assignment-help/"
+          }
         ]
       },
       {
         "heading": "Contact",
         "links": [
-          { "label": "support@ilm-help.co.uk", "href": "mailto:support@ilm-help.co.uk" },
-          { "label": "WhatsApp Us",             "href": "https://wa.me/447700900000" }
+          {
+            "label": "support@ilm-help.co.uk",
+            "href": "mailto:support@ilm-help.co.uk"
+          },
+          {
+            "label": "WhatsApp Us",
+            "href": "https://wa.me/447700900000"
+          }
         ]
       }
     ],

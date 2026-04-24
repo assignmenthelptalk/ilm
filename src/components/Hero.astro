@@ -9,6 +9,13 @@ interface CtaButton {
   href: string;
 }
 
+interface HeroImage {
+  src: string;
+  alt: string;
+  width: number;
+  height: number;
+}
+
 interface Props {
   headingLine1: string;
   headingHighlight: string;
@@ -17,6 +24,7 @@ interface Props {
   primaryCta: CtaButton;
   secondaryCta: CtaButton;
   badges: Badge[];
+  heroImage?: HeroImage;
 }
 
 const {
@@ -27,6 +35,7 @@ const {
   primaryCta,
   secondaryCta,
   badges,
+  heroImage,
 } = Astro.props;
 ---
 
@@ -52,24 +61,39 @@ const {
         ))}
       </div>
     </div>
-    <div class="hero__visual" aria-hidden="true">
-      <div class="hero__card hero__card--1">
-        <span class="hero__card-icon">🎓</span>
-        <strong>Outstanding Results</strong>
-        <span>ILM Level 3, 5 & 7</span>
+    {heroImage ? (
+      <div class="hero__visual hero__visual--photo">
+        <img
+          src={heroImage.src}
+          alt={heroImage.alt}
+          width={heroImage.width}
+          height={heroImage.height}
+          loading="eager"
+          decoding="async"
+          fetchpriority="high"
+          class="hero__photo"
+        />
       </div>
-      <div class="hero__card hero__card--2">
-        <span class="hero__card-icon">⭐</span>
-        <strong>4.9/5 Rating</strong>
-        <span>5,500+ students</span>
+    ) : (
+      <div class="hero__visual" aria-hidden="true">
+        <div class="hero__card hero__card--1">
+          <span class="hero__card-icon">🎓</span>
+          <strong>Outstanding Results</strong>
+          <span>ILM Level 3, 5 & 7</span>
+        </div>
+        <div class="hero__card hero__card--2">
+          <span class="hero__card-icon">⭐</span>
+          <strong>4.9/5 Rating</strong>
+          <span>5,500+ students</span>
+        </div>
+        <div class="hero__card hero__card--3">
+          <span class="hero__card-icon">✓</span>
+          <strong>City & Guilds ILM</strong>
+          <span>All levels covered</span>
+        </div>
+        <div class="hero__blob" aria-hidden="true"></div>
       </div>
-      <div class="hero__card hero__card--3">
-        <span class="hero__card-icon">✓</span>
-        <strong>City & Guilds ILM</strong>
-        <span>All levels covered</span>
-      </div>
-      <div class="hero__blob" aria-hidden="true"></div>
-    </div>
+    )}
   </div>
 </section>
 
@@ -241,6 +265,22 @@ const {
     align-self: flex-start;
   }
 
+  /* Photo variant */
+  .hero__visual--photo {
+    position: relative;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 8px 40px rgba(20, 83, 45, 0.22);
+    align-self: center;
+  }
+
+  .hero__photo {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+  }
+
   @media (max-width: 900px) {
     .hero__inner {
       grid-template-columns: 1fr;
@@ -249,6 +289,10 @@ const {
 
     .hero__visual {
       display: none;
+    }
+
+    .hero__visual--photo {
+      display: block;
     }
   }
 
