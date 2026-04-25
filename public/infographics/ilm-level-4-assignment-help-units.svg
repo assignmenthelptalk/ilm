@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="100%" role="img" aria-labelledby="ilm-l4-title">
+  <title id="ilm-l4-title">ILM Level 4 Assignment Help: qualification position, popular units, leadership theory standard, word count and format, progression from Level 3 to Level 5</title>
+
+  <!-- Background -->
+  <rect width="800" height="520" fill="#F4F7FB" rx="14"/>
+  <!-- Header -->
+  <rect width="800" height="64" fill="#14532D" rx="14"/>
+  <rect y="50" width="800" height="14" fill="#14532D"/>
+  <text x="400" y="28" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">ILM Level 4: Senior Team Leader and Junior Manager Unit Guide</text>
+  <text x="400" y="52" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#86EFAC">Between Level 3 and Level 5 · Analysis Standard · Harvard Referencing · 1,500–2,500 words</text>
+
+  <!-- Rule -->
+  <rect x="28" y="80" width="744" height="22" rx="4" fill="#EAB308"/>
+  <text x="400" y="95" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" fill="#1C1917">Level 4 standard: ANALYSIS — apply theory AND evaluate effectiveness · More than Level 3 application, less than Level 5 critical synthesis</text>
+
+  <!-- Level position panel -->
+  <rect x="28" y="112" width="360" height="258" rx="6" fill="#FFFFFF" stroke="#DDD6FE" stroke-width="1.5"/>
+  <rect x="28" y="112" width="360" height="24" rx="6" fill="#14532D"/>
+  <rect x="28" y="124" width="360" height="12" fill="#14532D"/>
+  <text x="208" y="128" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">LEVEL 4 POSITION AND POPULAR UNITS</text>
+  <text x="40" y="148" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Qualification Position:</text>
+  <text x="40" y="160" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">RQF Level 4 = year 1 undergraduate equivalent</text>
+  <text x="40" y="172" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Senior team leaders · section managers · junior middle managers</text>
+  <text x="40" y="184" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Managing through others (managing team leaders)</text>
+  <line x1="40" y1="192" x2="378" y2="192" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="40" y="206" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Popular Units:</text>
+  <text x="40" y="218" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Understanding the Management Role</text>
+  <text x="40" y="230" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">— Fayol (1916), Mintzberg (1973), Kotter (1990) distinction</text>
+  <text x="40" y="244" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Developing Leadership Styles</text>
+  <text x="40" y="256" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">— Bass (1985) + 360° feedback (evidence-connected)</text>
+  <text x="40" y="270" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Leading a Complex Team Activity</text>
+  <text x="40" y="282" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">— Project planning, stakeholder management evidence</text>
+  <text x="40" y="296" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Financial Management at Level 4</text>
+  <text x="40" y="308" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">— Read and interpret reports, draw management conclusions</text>
+  <text x="40" y="322" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Understanding Change in the Workplace</text>
+  <text x="40" y="334" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">— Lewin (1951) + Kotter (1996) analytically applied</text>
+  <line x1="40" y1="342" x2="378" y2="342" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="40" y="356" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Word count: 1,500–2,500 per unit (check spec)</text>
+  <text x="40" y="368" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Full Harvard referencing: first required level in ILM ladder</text>
+
+  <!-- Theory standards + progression panel -->
+  <rect x="402" y="112" width="370" height="258" rx="6" fill="#FFFFFF" stroke="#DDD6FE" stroke-width="1.5"/>
+  <rect x="402" y="112" width="370" height="24" rx="6" fill="#1E40AF"/>
+  <rect x="402" y="124" width="370" height="12" fill="#1E40AF"/>
+  <text x="587" y="128" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">ANALYSIS STANDARD + LEVEL PROGRESSION</text>
+  <text x="414" y="148" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">L3 → L4 → L5 Analytical Progression:</text>
+  <text x="414" y="160" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">L3: "Maslow suggests my team needs safety…"</text>
+  <text x="414" y="172" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">L4: "3 of 5 members show Esteem-level need; my uniform</text>
+  <text x="414" y="184" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">social management approach addresses the wrong level"</text>
+  <text x="414" y="196" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">L5: "Maslow's hierarchical assumption lacks empirical support</text>
+  <text x="414" y="208" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">(Wahba &amp; Bridwell, 1976) · Herzberg provides alternative…"</text>
+  <line x1="414" y1="216" x2="762" y2="216" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="414" y="230" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Level 4 Change Management:</text>
+  <text x="414" y="242" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Lewin (1951): Unfreeze → Move → Refreeze</text>
+  <text x="414" y="254" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Kotter (1996): 8 steps — evaluate which steps worked</text>
+  <text x="414" y="266" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#EAB308">L4: identify specific failures + why — not just list steps</text>
+  <text x="414" y="278" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">ADKAR: individual level complement to Kotter</text>
+  <line x1="414" y1="286" x2="762" y2="286" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="414" y="300" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Evidence at Level 4:</text>
+  <text x="414" y="312" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Higher complexity than L3 — departmental not team scope</text>
+  <text x="414" y="324" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Evidence of managing through others — team leader development</text>
+  <text x="414" y="336" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Witness testimony from peers + senior sponsor important</text>
+  <line x1="414" y1="344" x2="762" y2="344" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="414" y="358" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Progressing to Level 5 — what changes:</text>
+  <text x="414" y="370" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Critical evaluation of theory limitations required</text>
+
+  <!-- Qualification structure row -->
+  <rect x="28" y="382" width="744" height="30" rx="4" fill="#1E40AF"/>
+  <text x="400" y="397" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">QUALIFICATION SIZES AND PROGRESSION</text>
+  <text x="400" y="410" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#BFDBFE">Award: 1–2 units · Certificate: 4–6 units (most common) · Diploma: 8–12 units · L4 can be skipped — direct L3 → L5 where experience warrants</text>
+
+  <!-- Pass distinction -->
+  <rect x="28" y="424" width="744" height="56" rx="6" fill="#14532D"/>
+  <text x="400" y="440" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">LEVEL 4: PASS vs DISTINCTION STANDARD</text>
+  <text x="44" y="455" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#86EFAC">PASS: Theory applied with specific evidence · management effectiveness evaluated · Harvard referencing present · criteria covered</text>
+  <text x="44" y="469" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#FDE68A">DISTINCTION: Specific failures identified with WHY · theory limitations noted · mismatches between management approach and team need · forward-looking SMART development with evidence connection</text>
+
+  <!-- Footer -->
+  <text x="400" y="513" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" fill="#9CA3AF">ILM Assignment Help Service · Level 4 Senior Team Leader and Junior Manager Units</text>
+</svg>

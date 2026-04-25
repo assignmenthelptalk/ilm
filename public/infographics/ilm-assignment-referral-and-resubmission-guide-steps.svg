@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="100%" role="img" aria-labelledby="ilm-referral-title">
+  <title id="ilm-referral-title">ILM Assignment Referral and Resubmission Guide: what referral means, 5 common causes, reading feedback, criterion-by-criterion fix plan, resubmission timeline, appeal vs resubmit</title>
+
+  <!-- Background -->
+  <rect width="800" height="520" fill="#F4F7FB" rx="14"/>
+  <!-- Header -->
+  <rect width="800" height="64" fill="#14532D" rx="14"/>
+  <rect y="50" width="800" height="14" fill="#14532D"/>
+  <text x="400" y="28" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">ILM Assignment Referral: What It Means and How to Resubmit Successfully</text>
+  <text x="400" y="52" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#86EFAC">Not a fail · Criterion-by-criterion fix plan · Targeted resubmission · Pass to Distinction upgrade</text>
+
+  <!-- Rule strip -->
+  <rect x="28" y="80" width="744" height="22" rx="4" fill="#EAB308"/>
+  <text x="400" y="95" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" fill="#1C1917">A referral means evidence does not YET fully meet the criteria — it is an opportunity, not a final decision · Most ILM centres allow 2+ resubmission attempts</text>
+
+  <!-- 5 Causes Panel -->
+  <rect x="28" y="112" width="360" height="258" rx="6" fill="#FFFFFF" stroke="#DDD6FE" stroke-width="1.5"/>
+  <rect x="28" y="112" width="360" height="24" rx="6" fill="#DC2626"/>
+  <rect x="28" y="124" width="360" height="12" fill="#DC2626"/>
+  <text x="208" y="128" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">5 MOST COMMON REFERRAL CAUSES</text>
+  <text x="40" y="148" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">1. MISSED CRITERIA</text>
+  <text x="40" y="160" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Not all assessment criteria evidenced — broad coverage ≠ criterion coverage</text>
+  <text x="40" y="172" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Fix: work through criteria grid before submitting · annotate each criterion</text>
+  <line x1="40" y1="180" x2="378" y2="180" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="40" y="194" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">2. INSUFFICIENT EVIDENCE</text>
+  <text x="40" y="206" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Evidence present but fails CASER: 1 email ≠ "sustained stakeholder engagement"</text>
+  <text x="40" y="218" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Fix: add more evidence types, annotate against specific criterion language</text>
+  <line x1="40" y1="226" x2="378" y2="226" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="40" y="240" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">3. DESCRIPTIVE WRITING</text>
+  <text x="40" y="252" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Events described without analytical evaluation · theory listed not applied</text>
+  <text x="40" y="264" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Fix: restructure around criterion language · add causal analysis paragraphs</text>
+  <line x1="40" y1="272" x2="378" y2="272" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="40" y="286" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">4. WEAK THEORY APPLICATION</text>
+  <text x="40" y="298" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Theory cited but not connected to specific evidence · "Bass shows leadership"</text>
+  <text x="40" y="310" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Fix: add specific evidence connections · apply theory dimensions to data</text>
+  <line x1="40" y1="318" x2="378" y2="318" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="40" y="332" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">5. REFERENCING ERRORS (Level 5/7)</text>
+  <text x="40" y="344" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Missing reference list entries · no page numbers on quotes · wrong format</text>
+  <text x="40" y="356" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Fix: systematic audit of all citations vs reference list before submission</text>
+  <text x="40" y="370" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7" fill="#374151">Level 3 most common: descriptive · Level 5: missed criteria + weak theory</text>
+
+  <!-- Fix Plan Panel -->
+  <rect x="402" y="112" width="370" height="258" rx="6" fill="#FFFFFF" stroke="#DDD6FE" stroke-width="1.5"/>
+  <rect x="402" y="112" width="370" height="24" rx="6" fill="#14532D"/>
+  <rect x="402" y="124" width="370" height="12" fill="#14532D"/>
+  <text x="587" y="128" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">CRITERION-BY-CRITERION FIX PLAN</text>
+  <text x="414" y="148" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Read feedback criterion by criterion — not as a summary:</text>
+  <text x="414" y="160" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">"Missing evidence" ≠ same fix as "insufficient analysis"</text>
+  <text x="414" y="172" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Each criterion = independent diagnosis → different fix type</text>
+  <line x1="414" y1="180" x2="762" y2="180" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="414" y="194" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Fix plan table — 3 columns per criterion:</text>
+  <text x="414" y="206" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Column 1: criterion reference + assessor feedback</text>
+  <text x="414" y="218" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Column 2: gap type (evidence/analysis/theory/ref)</text>
+  <text x="414" y="230" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Column 3: specific addition or revision planned</text>
+  <line x1="414" y1="238" x2="762" y2="238" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="414" y="252" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Targeted resubmission — surgical approach:</text>
+  <text x="414" y="264" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Do NOT rewrite sections that already meet criteria</text>
+  <text x="414" y="276" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Address only referred criteria specifically</text>
+  <text x="414" y="288" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#EAB308">Upgrade opportunity: pass-level criteria → distinction additions</text>
+  <line x1="414" y1="296" x2="762" y2="296" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="414" y="310" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Resubmission rules:</text>
+  <text x="414" y="322" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Most centres: 2+ attempts · check your centre's policy</text>
+  <text x="414" y="334" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">New work-based evidence CAN be added to resubmission</text>
+  <text x="414" y="346" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Deadline: typically 4–8 weeks from referral notification</text>
+  <line x1="414" y1="354" x2="762" y2="354" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="414" y="368" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Appeal vs Resubmit:</text>
+  <text x="414" y="380" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Appeal: assessment decision wrong (procedural, inconsistent)</text>
+
+  <!-- Process flow strip -->
+  <rect x="28" y="382" width="744" height="30" rx="4" fill="#1E40AF"/>
+  <text x="400" y="397" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">RESUBMISSION PLANNING SEQUENCE</text>
+  <text x="400" y="410" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#BFDBFE">Week 1: Read feedback carefully, build criterion fix plan · Weeks 2–4: Execute targeted additions only · Week 4–5: Referencing audit · Submit before deadline</text>
+
+  <!-- Bottom panel -->
+  <rect x="28" y="424" width="744" height="56" rx="6" fill="#14532D"/>
+  <text x="400" y="440" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">ANALYTICAL FIX — How to Turn Description Into Analysis</text>
+  <text x="44" y="455" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#86EFAC">Referred: "Kotter's model shows change requires leadership" — theory present but not applied to evidence</text>
+  <text x="44" y="469" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#FDE68A">Fixed: "Step 3 of Kotter's (1996) model — communicating the change vision — was the critical failure: the vision reached senior leaders but not frontline staff, which Kotter identifies as the most common single-step failure"</text>
+
+  <!-- Footer -->
+  <text x="400" y="513" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" fill="#9CA3AF">ILM Assignment Help Service · Referral and Resubmission Guide</text>
+</svg>

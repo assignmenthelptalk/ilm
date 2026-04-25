@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="100%" role="img" aria-labelledby="ilm-reflective-title">
+  <title id="ilm-reflective-title">ILM Reflective Account Writing Help: Gibbs 6-Stage Cycle, Kolb Experiential Learning, Schön Reflection-in-Action vs on-Action, Moon Levels of Reflection, Pass vs Distinction standards</title>
+
+  <!-- Background -->
+  <rect width="800" height="520" fill="#F4F7FB" rx="14"/>
+  <!-- Header -->
+  <rect width="800" height="64" fill="#14532D" rx="14"/>
+  <rect y="50" width="800" height="14" fill="#14532D"/>
+  <text x="400" y="28" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">ILM Reflective Account Writing: Four Theoretical Frameworks</text>
+  <text x="400" y="52" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#86EFAC">Gibbs (1988) · Kolb (1984) · Schön (1983) · Moon (2004) · Level 3 to Level 7 Standards</text>
+
+  <!-- Critical rule strip -->
+  <rect x="28" y="80" width="744" height="22" rx="4" fill="#EAB308"/>
+  <text x="400" y="95" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" fill="#1C1917">Key rule: Description + Feelings = max 20% of word count · Analysis + Evaluation + Action = 80% where marks are awarded</text>
+
+  <!-- Gibbs Panel -->
+  <rect x="28" y="112" width="225" height="255" rx="6" fill="#FFFFFF" stroke="#DDD6FE" stroke-width="1.5"/>
+  <rect x="28" y="112" width="225" height="24" rx="6" fill="#14532D"/>
+  <rect x="28" y="124" width="225" height="12" fill="#14532D"/>
+  <text x="140" y="128" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">GIBBS (1988) — 6 STAGES</text>
+  <text x="40" y="148" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">1. Description</text>
+  <text x="40" y="160" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">What happened — objective account (10%)</text>
+  <text x="40" y="174" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">2. Feelings</text>
+  <text x="40" y="186" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Thinking and emotional response (10%)</text>
+  <text x="40" y="200" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">3. Evaluation</text>
+  <text x="40" y="212" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">What was good and bad — balanced (15%)</text>
+  <text x="40" y="226" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#EAB308">4. Analysis ★ KEY STAGE</text>
+  <text x="40" y="238" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Cite theory here (Bass, Hersey, Kotter...)</text>
+  <text x="40" y="250" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">WHY did events unfold as they did?</text>
+  <text x="40" y="264" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">5. Conclusion</text>
+  <text x="40" y="276" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">What else could you have done? (15%)</text>
+  <text x="40" y="290" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">6. Action Plan</text>
+  <text x="40" y="302" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">SMART — specific activity + timeline (15%)</text>
+  <line x1="40" y1="310" x2="243" y2="310" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="40" y="323" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#DC2626">Best for: single specific incident</text>
+  <text x="40" y="335" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Level 3–5 primary reflective model</text>
+  <text x="40" y="355" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7" fill="#374151">Allocation: 35% Analysis · 15% Eval · 15% Action</text>
+
+  <!-- Kolb Panel -->
+  <rect x="267" y="112" width="225" height="255" rx="6" fill="#FFFFFF" stroke="#DDD6FE" stroke-width="1.5"/>
+  <rect x="267" y="112" width="225" height="24" rx="6" fill="#1E40AF"/>
+  <rect x="267" y="124" width="225" height="12" fill="#1E40AF"/>
+  <text x="379" y="128" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">KOLB (1984) — EXPERIENTIAL CYCLE</text>
+  <text x="279" y="148" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">1. Concrete Experience</text>
+  <text x="279" y="160" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Doing or having an experience</text>
+  <text x="279" y="174" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">2. Reflective Observation</text>
+  <text x="279" y="186" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Reviewing and reflecting on the experience</text>
+  <text x="279" y="200" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#EAB308">3. Abstract Conceptualisation ★</text>
+  <text x="279" y="212" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Drawing conclusions — cite theory here</text>
+  <text x="279" y="224" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Generalising beyond the single event</text>
+  <text x="279" y="238" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">4. Active Experimentation</text>
+  <text x="279" y="250" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Planning and testing learning in new context</text>
+  <line x1="279" y1="260" x2="482" y2="260" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="279" y="275" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Kolb Learning Styles:</text>
+  <text x="279" y="287" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Diverger · Assimilator · Converger · Accommodator</text>
+  <line x1="279" y1="295" x2="482" y2="295" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="279" y="310" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#DC2626">Best for: learning over time / multiple events</text>
+  <text x="279" y="322" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Level 5 PDP structure · developmental narrative</text>
+  <text x="279" y="342" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7" fill="#374151">Distinction: evidence at each of 4 stages</text>
+  <text x="279" y="355" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7" fill="#374151">Not just describing cycle — evidencing each stage</text>
+
+  <!-- Schon + Moon Panel -->
+  <rect x="506" y="112" width="266" height="255" rx="6" fill="#FFFFFF" stroke="#DDD6FE" stroke-width="1.5"/>
+  <rect x="506" y="112" width="266" height="24" rx="6" fill="#7C3AED"/>
+  <rect x="506" y="124" width="266" height="12" fill="#7C3AED"/>
+  <text x="639" y="128" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">SCHÖN (1983) + MOON (2004) — LEVEL 5/7</text>
+  <text x="518" y="148" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Reflection-ON-Action (Schön):</text>
+  <text x="518" y="160" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Retrospective — after the event (Gibbs/Kolb)</text>
+  <text x="518" y="172" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Deliberate, distanced, structured analysis</text>
+  <line x1="518" y1="180" x2="762" y2="180" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="518" y="194" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#EAB308">Reflection-IN-Action ★ Level 7 standard:</text>
+  <text x="518" y="206" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Real-time — mid-situation professional adjustment</text>
+  <text x="518" y="218" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">"Knowing-in-action" → questioning assumptions live</text>
+  <text x="518" y="230" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Example: changing leadership approach mid-meeting</text>
+  <line x1="518" y1="238" x2="762" y2="238" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="518" y="252" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Moon (2004) Levels of Reflection:</text>
+  <text x="518" y="264" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Noticing → Making sense → Making meaning</text>
+  <text x="518" y="276" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Working with meaning → Transformative learning</text>
+  <text x="518" y="290" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#DC2626">Level 7 Distinction: Transformative level</text>
+  <text x="518" y="302" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Challenging own assumptions + mental models</text>
+  <text x="518" y="316" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Not just learning from experience — changing</text>
+  <text x="518" y="328" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">the assumptions that shape what you can see</text>
+  <text x="518" y="348" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7" fill="#374151">Level 5: both reflection types evidenced</text>
+  <text x="518" y="360" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7" fill="#374151">Level 7: Schön + Moon cited and evidenced</text>
+
+  <!-- Pass vs Distinction strip -->
+  <rect x="28" y="380" width="744" height="56" rx="6" fill="#14532D"/>
+  <text x="400" y="398" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">PASS vs DISTINCTION — THE REFLECTIVE ACCOUNT STANDARD</text>
+  <text x="44" y="413" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#86EFAC">PASS: Gibbs applied · theory cited by author/year · SMART action plan present · criterion coverage complete</text>
+  <text x="44" y="427" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#FDE68A">DISTINCTION: Multiple frameworks triangulated · own assumptions challenged · theory limitations evaluated · Schön in-action evidenced · forward-looking PDP evidence-linked</text>
+
+  <!-- Harvard refs strip -->
+  <rect x="28" y="448" width="744" height="52" rx="6" fill="#FFFFFF" stroke="#DDD6FE" stroke-width="1.5"/>
+  <text x="44" y="464" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" font-weight="700" fill="#374151">HARVARD REFERENCES — Reflective Practice Theorists</text>
+  <text x="44" y="478" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" fill="#374151">Gibbs, G. (1988). <tspan font-style="italic">Learning by Doing</tspan>. Oxford: FEU · Kolb, D.A. (1984). <tspan font-style="italic">Experiential Learning</tspan>. NJ: Prentice-Hall</text>
+  <text x="44" y="492" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" fill="#374151">Schön, D.A. (1983). <tspan font-style="italic">The Reflective Practitioner</tspan>. NY: Basic Books · Moon, J.A. (2004). <tspan font-style="italic">A Handbook of Reflective Learning</tspan>. London: Routledge</text>
+
+  <!-- Footer -->
+  <text x="400" y="513" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" fill="#9CA3AF">ILM Assignment Help Service · Reflective Account Writing Models Framework</text>
+</svg>

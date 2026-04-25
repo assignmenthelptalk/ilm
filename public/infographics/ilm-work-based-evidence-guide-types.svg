@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="100%" role="img" aria-labelledby="ilm-evidence-title">
+  <title id="ilm-evidence-title">ILM Work-Based Evidence Guide: 9 evidence types, CASER quality standards, annotation method, evidence by level, what assessors reject</title>
+
+  <!-- Background -->
+  <rect width="800" height="520" fill="#F4F7FB" rx="14"/>
+  <!-- Header -->
+  <rect width="800" height="64" fill="#14532D" rx="14"/>
+  <rect y="50" width="800" height="14" fill="#14532D"/>
+  <text x="400" y="28" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">ILM Work-Based Evidence: Types, Quality Standards, and Annotation</text>
+  <text x="400" y="52" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#86EFAC">CASER Standards · 9 Evidence Types · Assessor Requirements · Level 3 to Level 7</text>
+
+  <!-- CASER strip -->
+  <rect x="28" y="80" width="744" height="22" rx="4" fill="#EAB308"/>
+  <text x="400" y="95" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" fill="#1C1917">CASER: Current · Authentic · Sufficient · Evident · Relevant — ALL 5 must be met for every evidence item submitted</text>
+
+  <!-- 9 Evidence Types Panel -->
+  <rect x="28" y="112" width="370" height="258" rx="6" fill="#FFFFFF" stroke="#DDD6FE" stroke-width="1.5"/>
+  <rect x="28" y="112" width="370" height="24" rx="6" fill="#14532D"/>
+  <rect x="28" y="124" width="370" height="12" fill="#14532D"/>
+  <text x="213" y="128" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">9 ACCEPTED EVIDENCE TYPES</text>
+  <text x="40" y="148" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#14532D">1. Meeting Records</text>
+  <text x="40" y="160" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Minutes, agendas, action logs — annotate candidate's specific role/decisions</text>
+  <text x="40" y="174" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#14532D">2. 360-Degree Feedback</text>
+  <text x="40" y="186" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Self + line mgr + peers + reports — pattern analysis across rater groups</text>
+  <text x="40" y="200" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#14532D">3. Witness Testimony</text>
+  <text x="40" y="212" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Signed statement from named person — must be specific behaviour, not character</text>
+  <text x="40" y="226" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#14532D">4. Project Documentation</text>
+  <text x="40" y="238" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">PID, risk register, WBS, stakeholder map, post-project evaluation</text>
+  <text x="40" y="252" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#14532D">5. Financial Reports</text>
+  <text x="40" y="264" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">P&amp;L, variance analysis — anonymise figures; show what YOU did with the data</text>
+  <text x="40" y="278" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#14532D">6. Email Chains</text>
+  <text x="40" y="290" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Select relevant threads — annotate each key exchange against the criterion</text>
+  <text x="40" y="304" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#14532D">7. Performance Data</text>
+  <text x="40" y="316" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">KPI dashboards, absence data — show management impact in quantitative terms</text>
+  <text x="40" y="330" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#14532D">8. Photographs</text>
+  <text x="40" y="342" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Workplace visits, training events, environmental context — with caption annotation</text>
+  <text x="40" y="356" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#14532D">9. Written Plans</text>
+  <text x="40" y="368" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Team plans, development plans — include implementation/review evidence alongside</text>
+
+  <!-- Annotation + Rejection Panel -->
+  <rect x="412" y="112" width="360" height="258" rx="6" fill="#FFFFFF" stroke="#DDD6FE" stroke-width="1.5"/>
+  <rect x="412" y="112" width="360" height="24" rx="6" fill="#1E40AF"/>
+  <rect x="412" y="124" width="360" height="12" fill="#1E40AF"/>
+  <text x="592" y="128" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">HOW TO ANNOTATE · WHAT ASSESSORS REJECT</text>
+  <text x="424" y="148" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Annotation — 4 required elements:</text>
+  <text x="424" y="160" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">1. Criterion reference (e.g. AC 1.2)</text>
+  <text x="424" y="172" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">2. Evidence type and description</text>
+  <text x="424" y="184" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">3. Specific connection to the criterion</text>
+  <text x="424" y="196" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">4. Analytical statement (what it reveals about your practice)</text>
+  <line x1="424" y1="205" x2="762" y2="205" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="424" y="220" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#DC2626">5 Grounds for Evidence Rejection:</text>
+  <text x="424" y="232" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Currency: older than 3–5 years (level dependent)</text>
+  <text x="424" y="244" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Authenticity: appears created for assignment not from practice</text>
+  <text x="424" y="256" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Sufficiency: partially addresses criterion — not full breadth</text>
+  <text x="424" y="268" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Relevance: related to role but not to this specific criterion</text>
+  <text x="424" y="280" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Evidence: annotation claims not supported by document content</text>
+  <line x1="424" y1="290" x2="762" y2="290" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="424" y="305" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Volume by Level:</text>
+  <text x="424" y="317" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Level 3: 3–6 items per unit</text>
+  <text x="424" y="329" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Level 5: 6–12 items, multiple types per criterion</text>
+  <text x="424" y="341" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Level 7: strategic scope — divisional/org-level impact</text>
+  <text x="424" y="355" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#EAB308">Distinction: evidence of impact — before vs after data</text>
+  <text x="424" y="367" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7" fill="#374151">Not just what you did — what difference it made</text>
+
+  <!-- Confidentiality strip -->
+  <rect x="28" y="382" width="744" height="30" rx="4" fill="#FEF9C3"/>
+  <text x="400" y="395" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#713F12">CONFIDENTIALITY: Replace names with role descriptions · Present financial data as index/% not absolute figures · Always anonymise coachee and client details</text>
+  <text x="400" y="408" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" fill="#713F12">Failure to anonymise = submission held by centre admin until corrected — not an assessment failure but a submission gateway issue</text>
+
+  <!-- Bottom distinction panel -->
+  <rect x="28" y="424" width="744" height="56" rx="6" fill="#14532D"/>
+  <text x="400" y="442" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">WITNESS TESTIMONY — Most powerful single evidence type</text>
+  <text x="44" y="457" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#86EFAC">Weak: "a good communicator and positive presence in the team" — generic character reference — carries minimal evidential weight</text>
+  <text x="44" y="471" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#FDE68A">Strong: "In the October budget review, she led a cross-departmental negotiation that resulted in a 12% overhead reduction without service output loss" — specific behaviour + measurable impact</text>
+
+  <!-- Footer -->
+  <text x="400" y="513" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" fill="#9CA3AF">ILM Assignment Help Service · Work-Based Evidence Types and Quality Standards</text>
+</svg>

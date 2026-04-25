@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="100%" role="img" aria-labelledby="ilm-l5mgmt-title">
+  <title id="ilm-l5mgmt-title">ILM Level 5 Management Units: Financial P&amp;L variance EBITDA causal analysis, Mendelow stakeholder matrix, PESTLE Porter Five Forces 7Ps, SMART objectives people management, Business case break-even</title>
+
+  <!-- Background -->
+  <rect width="800" height="520" fill="#F4F7FB" rx="14"/>
+  <!-- Header -->
+  <rect width="800" height="64" fill="#14532D" rx="14"/>
+  <rect y="50" width="800" height="14" fill="#14532D"/>
+  <text x="400" y="28" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">ILM Level 5 Management Units: Financial, Projects, People, and Strategy</text>
+  <text x="400" y="52" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#86EFAC">P&amp;L Variance · Mendelow Matrix · PESTLE · Porter · SMART Objectives · Business Case</text>
+
+  <!-- Rule strip -->
+  <rect x="28" y="80" width="744" height="22" rx="4" fill="#EAB308"/>
+  <text x="400" y="95" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" fill="#1C1917">Distinction rule: Analysis = WHY the variance/gap/issue — causal explanation with theory — not description of numbers or events</text>
+
+  <!-- Financial Panel -->
+  <rect x="28" y="112" width="226" height="258" rx="6" fill="#FFFFFF" stroke="#DDD6FE" stroke-width="1.5"/>
+  <rect x="28" y="112" width="226" height="24" rx="6" fill="#14532D"/>
+  <rect x="28" y="124" width="226" height="12" fill="#14532D"/>
+  <text x="141" y="128" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">FINANCIAL MANAGEMENT</text>
+  <text x="40" y="148" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">P&amp;L Structure:</text>
+  <text x="40" y="160" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Revenue → Cost of Sales → Gross Profit</text>
+  <text x="40" y="172" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">→ Overheads → EBITDA → Net Profit</text>
+  <line x1="40" y1="180" x2="244" y2="180" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="40" y="194" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Variance Analysis:</text>
+  <text x="40" y="206" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Favourable: actual better than budget</text>
+  <text x="40" y="218" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Adverse: actual worse than budget</text>
+  <text x="40" y="230" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#DC2626">Distinction: WHY the variance — causal drivers</text>
+  <line x1="40" y1="238" x2="244" y2="238" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="40" y="252" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">EBITDA — what it reveals AND masks:</text>
+  <text x="40" y="264" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Reveals: operational profitability</text>
+  <text x="40" y="276" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Masks: capex needs, working capital flows</text>
+  <text x="40" y="290" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Strong EBITDA + weak cash = distinction insight</text>
+  <line x1="40" y1="298" x2="244" y2="298" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="40" y="312" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Business Case (break-even):</text>
+  <text x="40" y="324" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Fixed cost ÷ contribution per unit</text>
+  <text x="40" y="336" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Or: payback period for non-commercial</text>
+  <text x="40" y="350" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7" fill="#374151">Confidential data: index presentation (% of base)</text>
+  <text x="40" y="362" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7" fill="#374151">Sensitivity: what if costs 20% higher?</text>
+
+  <!-- Project + People Panel -->
+  <rect x="268" y="112" width="263" height="258" rx="6" fill="#FFFFFF" stroke="#DDD6FE" stroke-width="1.5"/>
+  <rect x="268" y="112" width="263" height="24" rx="6" fill="#1E40AF"/>
+  <rect x="268" y="124" width="263" height="12" fill="#1E40AF"/>
+  <text x="399" y="128" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">PROJECTS + PEOPLE MANAGEMENT</text>
+  <text x="280" y="148" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Mendelow (1991) — 4 quadrants:</text>
+  <text x="280" y="160" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">High power + interest → Manage Closely</text>
+  <text x="280" y="172" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">High power + low interest → Keep Satisfied</text>
+  <text x="280" y="184" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Low power + high interest → Keep Informed</text>
+  <text x="280" y="196" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Low power + low interest → Monitor</text>
+  <text x="280" y="208" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#EAB308">Distinction: did any stakeholder move quadrant mid-project?</text>
+  <line x1="280" y1="216" x2="521" y2="216" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="280" y="230" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Risk Register (pass standard):</text>
+  <text x="280" y="242" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Description · Probability · Impact · Score</text>
+  <text x="280" y="254" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Mitigation · Residual risk · Risk owner</text>
+  <text x="280" y="266" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Distinction: evaluate comprehensiveness — missed risks?</text>
+  <line x1="280" y1="274" x2="521" y2="274" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="280" y="288" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">People: SMART Objectives (Doran, 1981):</text>
+  <text x="280" y="300" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Specific · Measurable · Achievable</text>
+  <text x="280" y="312" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Relevant · Time-bound — all 5 required</text>
+  <text x="280" y="326" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#DC2626">"Improve communication" = NOT SMART</text>
+  <text x="280" y="338" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Bradford Factor for absence — trigger points</text>
+  <text x="280" y="352" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">RTW interviews + OH referral process</text>
+  <text x="280" y="366" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7" fill="#374151">Herzberg: hygiene vs motivator gap in team</text>
+
+  <!-- Strategy Panel -->
+  <rect x="545" y="112" width="227" height="258" rx="6" fill="#FFFFFF" stroke="#DDD6FE" stroke-width="1.5"/>
+  <rect x="545" y="112" width="227" height="24" rx="6" fill="#7C3AED"/>
+  <rect x="545" y="124" width="227" height="12" fill="#7C3AED"/>
+  <text x="658" y="128" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">MARKETING STRATEGY FRAMEWORKS</text>
+  <text x="557" y="148" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">PESTLE — 6 factors:</text>
+  <text x="557" y="160" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Political · Economic · Social · Tech · Legal · Env</text>
+  <text x="557" y="172" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#EAB308">Distinction: top 2–3 factors only, evaluated</text>
+  <line x1="557" y1="180" x2="762" y2="180" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="557" y="194" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Porter's Five Forces (1980):</text>
+  <text x="557" y="206" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">New entrants · Buyer power · Supplier power</text>
+  <text x="557" y="218" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Substitutes · Competitive rivalry</text>
+  <text x="557" y="230" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Distinction: most significant force — strategy response?</text>
+  <line x1="557" y1="238" x2="762" y2="238" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="557" y="252" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">7Ps Marketing Mix:</text>
+  <text x="557" y="264" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Product · Price · Place · Promotion</text>
+  <text x="557" y="276" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">People · Process · Physical evidence</text>
+  <text x="557" y="288" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Distinction: are the 7Ps internally aligned?</text>
+  <line x1="557" y1="296" x2="762" y2="296" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="557" y="310" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Balanced Scorecard (Kaplan &amp; Norton):</text>
+  <text x="557" y="322" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Financial · Customer · Internal · Learning</text>
+  <text x="557" y="334" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">4 dimensions → KPI framework evaluation</text>
+  <text x="557" y="348" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7" fill="#374151">SWOT links to PESTLE — external drives threats/opps</text>
+  <text x="557" y="360" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7" fill="#374151">Porter generic: cost leadership vs differentiation</text>
+
+  <!-- Word count + level strip -->
+  <rect x="28" y="382" width="744" height="30" rx="4" fill="#1E40AF"/>
+  <text x="400" y="397" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">LEVEL 5 MANAGEMENT UNIT WORD COUNTS: 2,000–3,500 per unit · Harvard referencing required · Cross-unit evidence planning reduces total load</text>
+  <text x="400" y="410" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#BFDBFE">Mendelow from project unit → also evidences change management stakeholder criteria · SMART objectives → people + leadership + CPD units simultaneously</text>
+
+  <!-- Pass distinction strip -->
+  <rect x="28" y="424" width="744" height="56" rx="6" fill="#14532D"/>
+  <text x="400" y="440" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">CAUSAL ANALYSIS STANDARD — Management Units</text>
+  <text x="44" y="455" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#86EFAC">PASS: Variance reported · Mendelow applied · SMART objectives set · PESTLE completed with examples</text>
+  <text x="44" y="469" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#FDE68A">DISTINCTION: Variance causes identified with causal theory · Mendelow quadrant movement evaluated · 7Ps alignment assessed · PESTLE priority factors with strategic response recommendation</text>
+
+  <!-- Footer -->
+  <text x="400" y="513" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" fill="#9CA3AF">ILM Assignment Help Service · Level 5 Management Unit Frameworks</text>
+</svg>

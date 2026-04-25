@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="100%" role="img" aria-labelledby="ilm-l5lead-title">
+  <title id="ilm-l5lead-title">ILM Level 5 Leadership Unit: 360-degree feedback pattern analysis, Bass transformational Four Is, Hersey Blanchard S1-S4 R1-R4, Goleman EI six styles, Distinction PDP standard</title>
+
+  <!-- Background -->
+  <rect width="800" height="520" fill="#F4F7FB" rx="14"/>
+  <!-- Header -->
+  <rect width="800" height="64" fill="#14532D" rx="14"/>
+  <rect y="50" width="800" height="14" fill="#14532D"/>
+  <text x="400" y="28" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">ILM Level 5 Leadership Unit: Becoming an Effective Leader</text>
+  <text x="400" y="52" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#86EFAC">360° Feedback Analysis · Bass (1985) · Hersey &amp; Blanchard (1969) · Goleman (2000) · Distinction PDP</text>
+
+  <!-- Key rule -->
+  <rect x="28" y="80" width="744" height="22" rx="4" fill="#EAB308"/>
+  <text x="400" y="95" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" fill="#1C1917">The 360° gap between self-assessment and direct reports = primary distinction evidence — pattern analysis not score summary</text>
+
+  <!-- 360 Panel -->
+  <rect x="28" y="112" width="235" height="258" rx="6" fill="#FFFFFF" stroke="#DDD6FE" stroke-width="1.5"/>
+  <rect x="28" y="112" width="235" height="24" rx="6" fill="#14532D"/>
+  <rect x="28" y="124" width="235" height="12" fill="#14532D"/>
+  <text x="145" y="128" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">360° FEEDBACK ANALYSIS</text>
+  <text x="40" y="148" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">4 Rater Groups Required:</text>
+  <text x="40" y="160" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Self · Line Manager · Peers (2–3) · Reports (2–5)</text>
+  <line x1="40" y1="168" x2="253" y2="168" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="40" y="182" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#EAB308">Distinction Analysis Question:</text>
+  <text x="40" y="194" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">"What does the gap between self and reports</text>
+  <text x="40" y="206" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">reveal about leadership behaviour impact?"</text>
+  <line x1="40" y1="214" x2="253" y2="214" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="40" y="228" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Common Patterns:</text>
+  <text x="40" y="240" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Self-under: manager impact greater than perceived</text>
+  <text x="40" y="252" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Mgr-team gap: upward vs downward difference</text>
+  <text x="40" y="264" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Peer low: collaborative skills vs upward mgmt</text>
+  <line x1="40" y1="272" x2="253" y2="272" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="40" y="286" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#DC2626">Pass vs Distinction:</text>
+  <text x="40" y="298" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Pass: scores listed, theory cited</text>
+  <text x="40" y="310" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Distinction: gaps analysed with causal theory</text>
+  <text x="40" y="322" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7" fill="#374151">"WHY does this gap exist?" + framework answer</text>
+  <text x="40" y="352" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7" fill="#374151">LO2 = most marks · most commonly referred</text>
+  <text x="40" y="364" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7" fill="#374151">Allocate 1,000/3,000 words to LO2 minimum</text>
+
+  <!-- Bass Panel -->
+  <rect x="277" y="112" width="245" height="258" rx="6" fill="#FFFFFF" stroke="#DDD6FE" stroke-width="1.5"/>
+  <rect x="277" y="112" width="245" height="24" rx="6" fill="#1E40AF"/>
+  <rect x="277" y="124" width="245" height="12" fill="#1E40AF"/>
+  <text x="399" y="128" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">BASS (1985) — TRANSFORMATIONAL FOUR Is</text>
+  <text x="289" y="148" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Idealised Influence:</text>
+  <text x="289" y="160" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Role model · trust · admiration-inspiring</text>
+  <text x="289" y="174" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Inspirational Motivation:</text>
+  <text x="289" y="186" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Vision communication with emotional conviction</text>
+  <text x="289" y="200" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Intellectual Stimulation:</text>
+  <text x="289" y="212" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Challenge assumptions · encourage creativity</text>
+  <text x="289" y="226" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Individualised Consideration:</text>
+  <text x="289" y="238" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Individual development · coaching · tailored support</text>
+  <line x1="289" y1="246" x2="512" y2="246" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="289" y="260" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Transactional contrast:</text>
+  <text x="289" y="272" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Contingent Reward: performance ↔ reward exchange</text>
+  <text x="289" y="284" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">MBE-A/P: intervene on deviation (active/passive)</text>
+  <line x1="289" y1="292" x2="512" y2="292" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="289" y="306" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#EAB308">Distinction — Limitations of Bass:</text>
+  <text x="289" y="318" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Validated primarily in military/large corporate</text>
+  <text x="289" y="330" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Transactional = contextually required (compliance)</text>
+  <text x="289" y="342" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Yukl (1999) critique — cite at Distinction</text>
+  <text x="289" y="356" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7" fill="#374151">Burns (1978) = original source → Bass operationalised</text>
+  <text x="289" y="368" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7" fill="#374151">Add Goleman (2000) 6 styles for EI dimension</text>
+
+  <!-- Hersey + PDP Panel -->
+  <rect x="536" y="112" width="236" height="258" rx="6" fill="#FFFFFF" stroke="#DDD6FE" stroke-width="1.5"/>
+  <rect x="536" y="112" width="236" height="24" rx="6" fill="#7C3AED"/>
+  <rect x="536" y="124" width="236" height="12" fill="#7C3AED"/>
+  <text x="654" y="128" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">HERSEY &amp; BLANCHARD + DISTINCTION PDP</text>
+  <text x="548" y="148" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">S1 Directing → R1: unable + unwilling</text>
+  <text x="548" y="160" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">High task, low relationship — tell what and how</text>
+  <text x="548" y="174" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">S2 Coaching → R2: unable + willing</text>
+  <text x="548" y="186" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">High task + high relationship — explain why too</text>
+  <text x="548" y="200" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">S3 Supporting → R3: able + unwilling</text>
+  <text x="548" y="212" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Low task, high relationship — share, encourage</text>
+  <text x="548" y="226" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">S4 Delegating → R4: able + willing</text>
+  <text x="548" y="238" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Low task, low relationship — hand over responsibility</text>
+  <line x1="548" y1="246" x2="762" y2="246" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="548" y="260" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#EAB308">Distinction PDP Standard:</text>
+  <text x="548" y="272" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">3–5 objectives (not 10+)</text>
+  <text x="548" y="284" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Each: specific activity + success measure</text>
+  <text x="548" y="296" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Timeline + review mechanism</text>
+  <text x="548" y="308" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Theoretical rationale for each goal</text>
+  <text x="548" y="322" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#DC2626">"Attend a course" = NOT distinction standard</text>
+  <text x="548" y="334" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7" fill="#374151">Connect each objective to specific 360 gap</text>
+  <text x="548" y="346" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7" fill="#374151">Evidence-linked PDP = distinction differentiator</text>
+  <text x="548" y="360" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7" fill="#374151">Default style trap: S2 applied to R4 = micromanagement</text>
+  <text x="548" y="372" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7" fill="#374151">Identify YOUR default style with evidence</text>
+
+  <!-- Word count strip -->
+  <rect x="28" y="382" width="744" height="30" rx="4" fill="#1E40AF"/>
+  <text x="400" y="397" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">WORD COUNT STRUCTURE — 2,500–3,500 total</text>
+  <text x="400" y="410" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#BFDBFE">LO1 Theoretical framework: 600w · LO2 360° Analysis: 1,000w ★ · LO3 SMART PDP: 700w · LO4 Gibbs Reflection: 600w</text>
+
+  <!-- Assessment criteria strip -->
+  <rect x="28" y="424" width="744" height="56" rx="6" fill="#14532D"/>
+  <text x="400" y="440" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">PASS vs DISTINCTION — BECOMING AN EFFECTIVE LEADER</text>
+  <text x="44" y="455" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#86EFAC">PASS: All 4 LOs evidenced · Theory cited · SMART PDP present · Gibbs applied · 360 data presented with theory named</text>
+  <text x="44" y="469" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#FDE68A">DISTINCTION: 360 gaps analysed causally with Bass/Goleman · default S-style identified and challenged · PDP evidence-linked to gaps · theory limitations evaluated · Schön evidenced</text>
+
+  <!-- Footer -->
+  <text x="400" y="513" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" fill="#9CA3AF">ILM Assignment Help Service · Level 5 Becoming an Effective Leader Framework</text>
+</svg>

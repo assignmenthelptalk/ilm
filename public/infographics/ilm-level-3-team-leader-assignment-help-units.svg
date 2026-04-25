@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="100%" role="img" aria-labelledby="ilm-l3team-title">
+  <title id="ilm-l3team-title">ILM Level 3 Team Leader: qualification structure, Maslow Herzberg McGregor motivation, Tuckman team development, SMART objectives, GROW model, Level 3 vs Level 5 differences</title>
+
+  <!-- Background -->
+  <rect width="800" height="520" fill="#F4F7FB" rx="14"/>
+  <!-- Header -->
+  <rect width="800" height="64" fill="#14532D" rx="14"/>
+  <rect y="50" width="800" height="14" fill="#14532D"/>
+  <text x="400" y="28" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">ILM Level 3 Team Leader: Units, Theory, and Assessment Standards</text>
+  <text x="400" y="52" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#86EFAC">Maslow · Herzberg · McGregor · Tuckman · SMART · GROW · Level 3 vs Level 5</text>
+
+  <!-- Rule strip -->
+  <rect x="28" y="80" width="744" height="22" rx="4" fill="#EAB308"/>
+  <text x="400" y="95" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" fill="#1C1917">Level 3 standard: APPLICATION — connect theory to your team with specific examples · Not just what the theory says — what it explains about YOUR situation</text>
+
+  <!-- Motivation Panel -->
+  <rect x="28" y="112" width="360" height="258" rx="6" fill="#FFFFFF" stroke="#DDD6FE" stroke-width="1.5"/>
+  <rect x="28" y="112" width="360" height="24" rx="6" fill="#14532D"/>
+  <rect x="28" y="124" width="360" height="12" fill="#14532D"/>
+  <text x="208" y="128" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">MOTIVATION THEORIES — LEVEL 3 APPLICATION</text>
+  <text x="40" y="148" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Maslow (1943) — Hierarchy of Needs:</text>
+  <text x="40" y="160" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Physiological → Safety → Social → Esteem → Self-Actualisation</text>
+  <text x="40" y="172" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Application: where are YOUR team members in the hierarchy?</text>
+  <text x="40" y="184" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#EAB308">Key: identify mismatch between team need and management approach</text>
+  <line x1="40" y1="192" x2="378" y2="192" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="40" y="206" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Herzberg (1959) — Two-Factor Theory:</text>
+  <text x="40" y="218" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Motivators: achievement, recognition, the work itself, responsibility</text>
+  <text x="40" y="230" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Hygiene: pay, working conditions, supervision, policy</text>
+  <text x="40" y="242" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Hygiene absence = demotivate · Hygiene presence = no motivation</text>
+  <text x="40" y="254" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#DC2626">Application: focusing only on hygiene = prevents demotivation only</text>
+  <line x1="40" y1="262" x2="378" y2="262" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="40" y="276" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">McGregor (1960) — Theory X and Theory Y:</text>
+  <text x="40" y="288" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">X: people are lazy, need direction and control</text>
+  <text x="40" y="300" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Y: people find work natural, exercise self-direction when committed</text>
+  <text x="40" y="312" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Application: evaluate YOUR assumptions about your team</text>
+  <text x="40" y="326" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#EAB308">Theory Y taken too far = avoiding difficult conversations</text>
+  <line x1="40" y1="334" x2="378" y2="334" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="40" y="348" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Tuckman (1965) — Team Development:</text>
+  <text x="40" y="360" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Forming → Storming → Norming → Performing</text>
+
+  <!-- SMART + GROW + Level diff Panel -->
+  <rect x="402" y="112" width="370" height="258" rx="6" fill="#FFFFFF" stroke="#DDD6FE" stroke-width="1.5"/>
+  <rect x="402" y="112" width="370" height="24" rx="6" fill="#1E40AF"/>
+  <rect x="402" y="124" width="370" height="12" fill="#1E40AF"/>
+  <text x="587" y="128" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">SMART OBJECTIVES · GROW · LEVEL 3 vs LEVEL 5</text>
+  <text x="414" y="148" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">SMART Objectives (Doran, 1981):</text>
+  <text x="414" y="160" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Specific · Measurable · Achievable · Relevant · Time-bound</text>
+  <text x="414" y="172" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#DC2626">Not SMART: "Improve communication skills"</text>
+  <text x="414" y="184" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">SMART: "Reduce order processing time from 4.2m to 3.5m</text>
+  <text x="414" y="196" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">by Q1, measured weekly, using new workflow sequence"</text>
+  <line x1="414" y1="204" x2="762" y2="204" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="414" y="218" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">GROW Model (Whitmore, 2002) at Level 3:</text>
+  <text x="414" y="230" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Goal → Reality → Options → Will</text>
+  <text x="414" y="242" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Applied in supervision one-to-ones, not formal coaching</text>
+  <text x="414" y="254" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Coaching question vs directive: enable own solution</text>
+  <text x="414" y="266" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">CIGAR: Current, Ideal, Gaps, Actions, Review — brief format</text>
+  <line x1="414" y1="274" x2="762" y2="274" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="414" y="288" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Level 3 vs Level 5 — Key Differences:</text>
+  <text x="414" y="300" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">L3: apply one theory, team examples (750–1,500w)</text>
+  <text x="414" y="312" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">L5: compare 2–3 theories, evaluate limitations (2,000–3,500w)</text>
+  <text x="414" y="324" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">L3: informal theory citation (Author, Year)</text>
+  <text x="414" y="336" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">L5: full Harvard referencing required</text>
+  <line x1="414" y1="344" x2="762" y2="344" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="414" y="358" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Qualification sizes:</text>
+  <text x="414" y="370" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Award: 1–2 units · Certificate: 4–6 units · Diploma: 8–12 units</text>
+
+  <!-- Unit structure strip -->
+  <rect x="28" y="382" width="744" height="30" rx="4" fill="#1E40AF"/>
+  <text x="400" y="397" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">MOST STUDIED LEVEL 3 UNITS</text>
+  <text x="400" y="410" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#BFDBFE">Understanding Leadership · Planning &amp; Monitoring Work · Team Dynamics · Solving Problems · Developing Yourself as Team Leader · Communication in the Workplace</text>
+
+  <!-- Pass distinction -->
+  <rect x="28" y="424" width="744" height="56" rx="6" fill="#14532D"/>
+  <text x="400" y="440" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">LEVEL 3 PASS vs DISTINCTION STANDARD</text>
+  <text x="44" y="455" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#86EFAC">PASS: Theory named with author, applied to team context with examples, SMART action plan, criterion coverage complete</text>
+  <text x="44" y="469" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#FDE68A">DISTINCTION: TWO theories compared · mismatch between current management approach and team need identified · reflective self-evaluation · specific evidence-linked SMART development plan</text>
+
+  <!-- Footer -->
+  <text x="400" y="513" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" fill="#9CA3AF">ILM Assignment Help Service · Level 3 Team Leader Unit Framework</text>
+</svg>

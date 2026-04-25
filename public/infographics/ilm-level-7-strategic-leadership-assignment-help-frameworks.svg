@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="100%" role="img" aria-labelledby="ilm-l7strat-title">
+  <title id="ilm-l7strat-title">ILM Level 7 Strategic Leadership: Complexity leadership Uhl-Bien, Adaptive leadership Heifetz Linsky, Systems thinking Senge, VRIO dynamic capabilities, Ansoff Porter McKinsey 7S, Distinction critical synthesis standard</title>
+
+  <!-- Background -->
+  <rect width="800" height="520" fill="#F4F7FB" rx="14"/>
+  <!-- Header -->
+  <rect width="800" height="64" fill="#14532D" rx="14"/>
+  <rect y="50" width="800" height="14" fill="#14532D"/>
+  <text x="400" y="28" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">ILM Level 7 Strategic Leadership: Postgraduate-Level Frameworks</text>
+  <text x="400" y="52" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#86EFAC">Complexity · Adaptive · Systems Thinking · VRIO · Porter · McKinsey 7S · Critical Synthesis</text>
+
+  <!-- Rule strip -->
+  <rect x="28" y="80" width="744" height="22" rx="4" fill="#EAB308"/>
+  <text x="400" y="95" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" fill="#1C1917">Level 7 Distinction: SYNTHESIS not APPLICATION — frameworks triangulated to construct original argument · not applied sequentially</text>
+
+  <!-- Advanced Leadership Panel -->
+  <rect x="28" y="112" width="355" height="258" rx="6" fill="#FFFFFF" stroke="#DDD6FE" stroke-width="1.5"/>
+  <rect x="28" y="112" width="355" height="24" rx="6" fill="#14532D"/>
+  <rect x="28" y="124" width="355" height="12" fill="#14532D"/>
+  <text x="205" y="128" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">ADVANCED LEADERSHIP THEORY — LEVEL 7</text>
+  <text x="40" y="148" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Complexity Leadership (Uhl-Bien et al., 2007):</text>
+  <text x="40" y="160" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Administrative: formal authority, planning, compliance</text>
+  <text x="40" y="172" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Adaptive: emergent — network-level adaptive response</text>
+  <text x="40" y="184" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Enabling: senior leader creates conditions for adaptive</text>
+  <text x="40" y="196" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#EAB308">Challenge: are you operating in all 3 modes simultaneously?</text>
+  <line x1="40" y1="204" x2="373" y2="204" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="40" y="218" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Adaptive Leadership (Heifetz &amp; Linsky, 2002):</text>
+  <text x="40" y="230" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Technical problems → known solutions, expert response</text>
+  <text x="40" y="242" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Adaptive challenges → require value/belief/habit change</text>
+  <text x="40" y="254" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#DC2626">Most leadership failures = treating adaptive as technical</text>
+  <line x1="40" y1="262" x2="373" y2="262" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="40" y="276" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Systems Thinking (Senge, 1990):</text>
+  <text x="40" y="288" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Reinforcing loops: high engagement → quality → retention</text>
+  <text x="40" y="300" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Balancing loops: workload ↑ → quality ↓ → complaints ↑</text>
+  <text x="40" y="312" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">High-leverage interventions: target loop, not symptom</text>
+  <text x="40" y="326" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">5 Disciplines: Systems Thinking, Personal Mastery,</text>
+  <text x="40" y="338" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Mental Models, Shared Vision, Team Learning</text>
+  <text x="40" y="352" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7" fill="#374151">George (2003) Authentic Leadership: Purpose · Values · Heart</text>
+  <text x="40" y="364" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7" fill="#374151">Gronn (2002) Distributed: leadership = emergent network property</text>
+
+  <!-- Strategic Frameworks Panel -->
+  <rect x="397" y="112" width="375" height="258" rx="6" fill="#FFFFFF" stroke="#DDD6FE" stroke-width="1.5"/>
+  <rect x="397" y="112" width="375" height="24" rx="6" fill="#1E40AF"/>
+  <rect x="397" y="124" width="375" height="12" fill="#1E40AF"/>
+  <text x="584" y="128" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">STRATEGIC FRAMEWORKS — LEVEL 7</text>
+  <text x="409" y="148" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">VRIO Analysis (Barney, 1991):</text>
+  <text x="409" y="160" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Valuable · Rare · Inimitable · Organised</text>
+  <text x="409" y="172" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Sustainable CA: all 4 met · Temporary: V+R only</text>
+  <text x="409" y="184" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#EAB308">Distinction: evaluate which advantages eroding and why</text>
+  <line x1="409" y1="192" x2="762" y2="192" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="409" y="206" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Dynamic Capabilities (Hamel &amp; Prahalad, 1994; Teece et al., 1997):</text>
+  <text x="409" y="218" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Ability to integrate, build, reconfigure internal competences</text>
+  <text x="409" y="230" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Core competence → competing for the future</text>
+  <line x1="409" y1="238" x2="762" y2="238" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="409" y="252" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">McKinsey 7S (Peters &amp; Waterman, 1982):</text>
+  <text x="409" y="264" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Strategy · Structure · Systems · Shared Values</text>
+  <text x="409" y="276" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Staff · Skills · Style — evaluate misalignments</text>
+  <text x="409" y="288" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#EAB308">Distinction: identify specific misalignments constraining strategy</text>
+  <line x1="409" y1="296" x2="762" y2="296" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="409" y="310" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Ansoff (1957) + Porter (1980, 1985):</text>
+  <text x="409" y="322" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Ansoff: Market Penetration · Product Development</text>
+  <text x="409" y="334" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Market Development · Diversification</text>
+  <text x="409" y="346" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Porter generic: Cost Leadership · Differentiation · Focus</text>
+  <text x="409" y="358" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7" fill="#374151">Kaplan &amp; Norton BSC: Financial · Customer · Internal · Learning</text>
+  <text x="409" y="370" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7" fill="#374151">Stakeholder salience: Power + Legitimacy + Urgency (Mitchell et al., 1997)</text>
+
+  <!-- Level 7 synthesis strip -->
+  <rect x="28" y="382" width="744" height="30" rx="4" fill="#7C3AED"/>
+  <text x="400" y="397" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">CRITICAL SYNTHESIS STRUCTURE — Level 7 Distinction</text>
+  <text x="400" y="410" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#EDE9FE">Apply VRIO + 7S + Adaptive Leadership to SAME strategic challenge → compare explanatory power → construct integrated argument → arrive at original strategic recommendation</text>
+
+  <!-- Pass vs distinction -->
+  <rect x="28" y="424" width="744" height="56" rx="6" fill="#14532D"/>
+  <text x="400" y="440" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">LEVEL 7: APPLICATION vs SYNTHESIS</text>
+  <text x="44" y="455" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#86EFAC">PASS: Multiple frameworks applied to strategic challenge · peer-reviewed journals cited · critical evaluation present</text>
+  <text x="44" y="469" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#FDE68A">DISTINCTION: Technical vs adaptive challenge distinction made · systems loops identified + high-leverage interventions proposed · original integrated argument from 4–6 frameworks — not sequential application</text>
+
+  <!-- Footer -->
+  <text x="400" y="513" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" fill="#9CA3AF">ILM Assignment Help Service · Level 7 Strategic Leadership Frameworks</text>
+</svg>

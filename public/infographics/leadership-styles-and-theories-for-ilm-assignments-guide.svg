@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="100%" role="img" aria-labelledby="ilm-leadtheo-title">
+  <title id="ilm-leadtheo-title">Leadership Theories for ILM Assignments: Bass transformational, Hersey Blanchard situational, Servant leadership Greenleaf, Distributed Gronn, Goleman EI, Authentic George, level-by-level application guide</title>
+
+  <!-- Background -->
+  <rect width="800" height="520" fill="#F4F7FB" rx="14"/>
+  <!-- Header -->
+  <rect width="800" height="64" fill="#14532D" rx="14"/>
+  <rect y="50" width="800" height="14" fill="#14532D"/>
+  <text x="400" y="28" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">Leadership Theories for ILM Assignments: Level 3, 5, and 7</text>
+  <text x="400" y="52" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#86EFAC">Bass · Hersey &amp; Blanchard · Goleman · Greenleaf · Gronn · George · Burns · Fiedler</text>
+
+  <!-- Level bar -->
+  <rect x="28" y="80" width="744" height="22" rx="4" fill="#EAB308"/>
+  <text x="400" y="95" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" fill="#1C1917">Level 3: Apply · Level 5: Apply AND critically evaluate limitations · Level 7: Synthesise competing frameworks into original argument</text>
+
+  <!-- Level 3 Panel -->
+  <rect x="28" y="112" width="235" height="258" rx="6" fill="#FFFFFF" stroke="#DDD6FE" stroke-width="1.5"/>
+  <rect x="28" y="112" width="235" height="24" rx="6" fill="#15803D"/>
+  <rect x="28" y="124" width="235" height="12" fill="#15803D"/>
+  <text x="145" y="128" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">LEVEL 3 — APPLICATION</text>
+  <text x="40" y="148" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Lewin, Lippitt &amp; White (1939):</text>
+  <text x="40" y="160" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Autocratic · Democratic · Laissez-faire</text>
+  <text x="40" y="172" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Apply: which style do YOU default to and why?</text>
+  <line x1="40" y1="180" x2="253" y2="180" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="40" y="194" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Hersey &amp; Blanchard (1969) — introduced:</text>
+  <text x="40" y="206" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">S1–S4 matched to overall team readiness (R1–R4)</text>
+  <text x="40" y="218" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">One or two team examples sufficient at L3</text>
+  <line x1="40" y1="226" x2="253" y2="226" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="40" y="240" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Maslow + McGregor (motivation lens):</text>
+  <text x="40" y="252" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Hierarchy level → appropriate leadership response</text>
+  <text x="40" y="264" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">X vs Y assumption → directive vs empowering</text>
+  <line x1="40" y1="272" x2="253" y2="272" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="40" y="286" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Adair (1973) — Action-Centred Leadership:</text>
+  <text x="40" y="298" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Task · Team · Individual needs — three overlapping circles</text>
+  <text x="40" y="310" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Apply: are you balancing all three in your team?</text>
+  <line x1="40" y1="318" x2="253" y2="318" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="40" y="332" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#EAB308">L3 citation format: (Maslow, 1943) in text</text>
+  <text x="40" y="344" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Full Harvard not required — in-text author/year</text>
+  <text x="40" y="358" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7" fill="#374151">Lewin = historical baseline only at L5+ · use Bass/Goleman</text>
+  <text x="40" y="370" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7" fill="#374151">Two theories compared = distinction indicator at L3</text>
+
+  <!-- Level 5 Panel -->
+  <rect x="277" y="112" width="245" height="258" rx="6" fill="#FFFFFF" stroke="#DDD6FE" stroke-width="1.5"/>
+  <rect x="277" y="112" width="245" height="24" rx="6" fill="#1E40AF"/>
+  <rect x="277" y="124" width="245" height="12" fill="#1E40AF"/>
+  <text x="399" y="128" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">LEVEL 5 — CRITICAL ANALYSIS</text>
+  <text x="289" y="148" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Bass (1985) — Four Is:</text>
+  <text x="289" y="160" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">II · IM · IS · IC — apply to 360° feedback data</text>
+  <text x="289" y="172" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Limitation: primarily military/corporate validated (Yukl, 1999)</text>
+  <line x1="289" y1="180" x2="512" y2="180" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="289" y="194" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Hersey &amp; Blanchard — FULL S-R matrix:</text>
+  <text x="289" y="206" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Map each team member: R-level per key task</text>
+  <text x="289" y="218" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Identify YOUR default style — are you adapting?</text>
+  <text x="289" y="230" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Limitation: binary skill-will model oversimplifies</text>
+  <line x1="289" y1="238" x2="512" y2="238" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="289" y="252" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Goleman (2000) — Six Leadership Styles:</text>
+  <text x="289" y="264" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Coercive · Authoritative · Affiliative</text>
+  <text x="289" y="276" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Democratic · Pacesetting · Coaching</text>
+  <text x="289" y="288" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">EI 4 domains: Self-Awareness, Self-Management,</text>
+  <text x="289" y="300" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Social Awareness, Relationship Management</text>
+  <line x1="289" y1="308" x2="512" y2="308" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="289" y="322" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Greenleaf (1977) Servant Leadership:</text>
+  <text x="289" y="334" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Serve first · listen · empathy · growth of people</text>
+  <text x="289" y="346" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Best for: people development, coaching contexts</text>
+  <text x="289" y="358" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Kouzes &amp; Posner (2017): 5 Practices Framework</text>
+  <text x="289" y="372" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7" fill="#374151">George (2003) Authentic: Purpose · Values · Heart · Relationships</text>
+
+  <!-- Level 7 Panel -->
+  <rect x="536" y="112" width="236" height="258" rx="6" fill="#FFFFFF" stroke="#DDD6FE" stroke-width="1.5"/>
+  <rect x="536" y="112" width="236" height="24" rx="6" fill="#7C3AED"/>
+  <rect x="536" y="124" width="236" height="12" fill="#7C3AED"/>
+  <text x="654" y="128" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">LEVEL 7 — CRITICAL SYNTHESIS</text>
+  <text x="548" y="148" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Distributed Leadership (Gronn, 2002):</text>
+  <text x="548" y="160" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Leadership = emergent network property</text>
+  <text x="548" y="172" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Not individual leader — collective leadership activity</text>
+  <line x1="548" y1="180" x2="762" y2="180" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="548" y="194" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Complexity Leadership (Uhl-Bien et al., 2007):</text>
+  <text x="548" y="206" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Administrative + Adaptive + Enabling simultaneously</text>
+  <line x1="548" y1="214" x2="762" y2="214" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="548" y="228" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#374151">Historical progression — cite for context:</text>
+  <text x="548" y="240" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">Trait (1900s) → Behavioural (1940s) → Contingency</text>
+  <text x="548" y="252" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">(Fiedler 1967) → Transformational (Burns/Bass)</text>
+  <text x="548" y="264" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">→ Post-heroic (Servant/Authentic/Distributed)</text>
+  <line x1="548" y1="272" x2="762" y2="272" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="548" y="286" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8" font-weight="700" fill="#EAB308">Critical Evaluation Structure:</text>
+  <text x="548" y="298" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">1. Explanatory power for YOUR situation</text>
+  <text x="548" y="310" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">2. Limitations — what does it NOT explain?</text>
+  <text x="548" y="322" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">3. Alternative framework that addresses gap</text>
+  <text x="548" y="334" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7.5" fill="#374151">4. Contextual judgment — which has more value here?</text>
+  <text x="548" y="348" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7" fill="#374151">Journals: Leadership Quarterly · Journal of Management Studies</text>
+  <text x="548" y="360" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7" fill="#374151">British Journal of Management · Academy of Management Review</text>
+  <text x="548" y="374" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="7" fill="#374151">5–10 peer-reviewed citations required at distinction level</text>
+
+  <!-- Connecting row -->
+  <rect x="28" y="382" width="744" height="30" rx="4" fill="#1E40AF"/>
+  <text x="400" y="397" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">HOW TO CRITICALLY EVALUATE WITHOUT UNDERMINING YOUR ARGUMENT</text>
+  <text x="400" y="410" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#BFDBFE">Apply Bass → name a specific limitation → introduce Goleman as complementary lens → conclude which provides more value for YOUR specific 360° data</text>
+
+  <!-- Bottom strip -->
+  <rect x="28" y="424" width="744" height="56" rx="6" fill="#14532D"/>
+  <text x="400" y="440" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF">THEORY PROGRESSION — SAME THEORY AT DIFFERENT STANDARDS</text>
+  <text x="44" y="455" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#86EFAC">Level 3: "Bass identifies four dimensions of transformational leadership — II, IM, IS, IC — which I apply as follows..."</text>
+  <text x="44" y="469" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="8.5" fill="#FDE68A">Level 5 Distinction: "The gap between my self-assessment of IS (2.9/5) and reports (3.8/5) suggests I constrain team creativity — Yukl (1999) notes Bass's framework underweights contextual factors that limit intellectual stimulation..."</text>
+
+  <!-- Footer -->
+  <text x="400" y="513" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10" fill="#9CA3AF">ILM Assignment Help Service · Leadership Theories Level 3 to Level 7 Application Guide</text>
+</svg>
