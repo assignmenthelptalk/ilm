@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <rect width="32" height="32" rx="5" fill="#14532D"/>
-  <rect x="0" y="26" width="32" height="6" rx="5" fill="#EAB308"/>
-  <text x="16" y="22" font-family="Arial,sans-serif" font-size="14"
-        font-weight="bold" text-anchor="middle" fill="#FFFFFF">ILM</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <rect width="128" height="128" rx="18" fill="#14532D"/>
+  <text x="64" y="78" font-family="Arial,Arial Black,sans-serif" font-size="50"
+        font-weight="bold" text-anchor="middle" fill="white">ILM</text>
+  <rect x="12" y="106" width="104" height="10" rx="5" fill="#EAB308"/>
 </svg>
