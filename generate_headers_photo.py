@@ -1,6 +1,23 @@
 """
 generate_headers_photo.py — ILM Assignment Help new-page header images
-Produces 1200x400 WebP headers using the ILM input photo collage as background.
+Produces 1200x400 WebP headers using individually selected cells from the
+ILM input photo grid (4 cols x 3 rows).  Each page gets one cell chosen
+for relevance to the page topic.
+
+Grid cell reference (row, col) — 0-indexed:
+  r0c0  ILM building exterior
+  r0c1  Large formal conference/presentation  → Level 5
+  r0c2  Group meeting, "Unlocking Potential"  → Hub
+  r0c3  ILM Scotland networking evening
+  r1c0  Graduate holding FELLOW certificate
+  r1c1  ILM outdoor team activity             → Level 3
+  r1c2  ILM Apprenticeship presentation
+  r1c3  Professional man on laptop
+  r2c0  Professional man on laptop (wide)
+  r2c1  Woman working on laptop at home desk
+  r2c2  Library study, ILM book               → Coaching & Mentoring
+  r2c3  Leadership Award ceremony             → Level 7
+
 Brand: deep forest green #14532D + gold #EAB308
 """
 
@@ -8,6 +25,10 @@ from PIL import Image, ImageDraw, ImageFont, ImageEnhance
 import os
 
 INPUT_PHOTO = r"C:\Users\jobmu\agentic-workflow\semantic-seo-workflow\client_data\New-sites\ilm-assignment-help\input image\Gemini_Generated_Image_rog8iwrog8iwrog8.png"
+
+# Grid layout of the input collage
+GRID_COLS = 4
+GRID_ROWS = 3
 
 CLIENT = {
     "brand":      (20,  83,  45),
@@ -18,33 +39,44 @@ CLIENT = {
     "output_dir": r"C:\Users\jobmu\my-second-projects\ilm-assignment-help\public",
 }
 
-# Five different horizontal crop offsets so each header shows a different
-# section of the collage (image is 1408px wide; crop window is 768px wide)
+# cell_row / cell_col select which grid cell to use as the photo.
+# crop_y_frac (0.0–1.0) shifts the vertical crop within the cell:
+#   0.0 = top-aligned, 0.5 = centred, 1.0 = bottom-aligned.
 PAGES = [
     {
-        "slug":    "header_ilm-assignment-help",
-        "title":   "ILM\nASSIGNMENT\nHELP",
-        "crop_x":  0,
+        "slug":       "header_ilm-assignment-help",
+        "title":      "ILM\nASSIGNMENT\nHELP",
+        "cell_row":   0,
+        "cell_col":   2,   # group meeting with "Unlocking Potential" banner
+        "crop_y_frac": 0.3,
     },
     {
-        "slug":    "header_ilm-level-3-assignment-help",
-        "title":   "ILM LEVEL 3\nASSIGNMENT\nHELP",
-        "crop_x":  160,
+        "slug":       "header_ilm-level-3-assignment-help",
+        "title":      "ILM LEVEL 3\nASSIGNMENT\nHELP",
+        "cell_row":   1,
+        "cell_col":   1,   # ILM branded outdoor team activity — team leaders
+        "crop_y_frac": 0.4,
     },
     {
-        "slug":    "header_ilm-level-5-assignment-help",
-        "title":   "ILM LEVEL 5\nASSIGNMENT\nHELP",
-        "crop_x":  320,
+        "slug":       "header_ilm-level-5-assignment-help",
+        "title":      "ILM LEVEL 5\nASSIGNMENT\nHELP",
+        "cell_row":   0,
+        "cell_col":   1,   # large formal conference / presentation room
+        "crop_y_frac": 0.3,
     },
     {
-        "slug":    "header_ilm-level-7-assignment-help",
-        "title":   "ILM LEVEL 7\nASSIGNMENT\nHELP",
-        "crop_x":  480,
+        "slug":       "header_ilm-level-7-assignment-help",
+        "title":      "ILM LEVEL 7\nASSIGNMENT\nHELP",
+        "cell_row":   2,
+        "cell_col":   3,   # ILM Leadership Award ceremony — senior leader on stage
+        "crop_y_frac": 0.2,
     },
     {
-        "slug":    "header_ilm-coaching-mentoring-assignment-help",
-        "title":   "ILM COACHING\n& MENTORING\nASSIGNMENT HELP",
-        "crop_x":  640,
+        "slug":       "header_ilm-coaching-mentoring-assignment-help",
+        "title":      "ILM COACHING\n& MENTORING\nASSIGNMENT HELP",
+        "cell_row":   2,
+        "cell_col":   2,   # library study scene with ILM book
+        "crop_y_frac": 0.4,
     },
 ]
 
@@ -102,22 +134,49 @@ def panel_gradient(draw, px, py, pw, ph):
         draw.rectangle([(x, py), (x + 1, py + ph)], fill=(10, 40, 20, alpha))
 
 
-def place_photo(canvas, photo, crop_x, dest_x, dest_y, dest_w, dest_h):
-    """Crop a dest_w:dest_h section from photo at crop_x, paste onto canvas."""
+def extract_cell(photo, grid_cols, grid_rows, cell_col, cell_row):
+    """Return a single grid cell from the collage image."""
     pw, ph = photo.size
-    # Window in the source image that matches the dest aspect ratio
-    win_w = int(ph * dest_w / dest_h)
-    win_w = min(win_w, pw)
-    crop_x = min(crop_x, pw - win_w)
-    section = photo.crop((crop_x, 0, crop_x + win_w, ph))
-    section = section.resize((dest_w, dest_h), Image.LANCZOS)
+    cw = pw // grid_cols
+    ch = ph // grid_rows
+    x1 = cell_col * cw
+    y1 = cell_row * ch
+    return photo.crop((x1, y1, x1 + cw, y1 + ch))
+
+
+def place_cell(canvas, cell, crop_y_frac, dest_x, dest_y, dest_w, dest_h):
+    """
+    Scale the cell to fill dest_w (panel width), then crop vertically.
+    crop_y_frac controls which part of the cell is kept:
+      0.0 = top, 0.5 = centre, 1.0 = bottom.
+    """
+    cw, ch = cell.size
+    # Scale so the cell fills the destination width
+    scale = dest_w / cw
+    scaled_w = dest_w
+    scaled_h = int(ch * scale)
+
+    if scaled_h < dest_h:
+        # Cell too short even at full width — scale by height instead
+        scale = dest_h / ch
+        scaled_w = int(cw * scale)
+        scaled_h = dest_h
+
+    section = cell.resize((scaled_w, scaled_h), Image.LANCZOS)
+
+    # Vertical crop
+    excess_h = scaled_h - dest_h
+    y_off = int(excess_h * crop_y_frac)
+    section = section.crop((0, y_off, dest_w, y_off + dest_h))
+
     section = ImageEnhance.Brightness(section).enhance(0.82)
     section = ImageEnhance.Contrast(section).enhance(1.08)
-    # Convert RGBA to RGB so paste works cleanly
+
     if section.mode == "RGBA":
         bg = Image.new("RGB", section.size, (14, 58, 30))
         bg.paste(section, mask=section.split()[3])
         section = bg
+
     canvas.paste(section, (dest_x, dest_y))
 
 
@@ -133,11 +192,14 @@ def generate(photo, page, client):
 
     canvas = Image.new("RGB", (W, H), brand)
 
-    # Photo fills the right panel area
+    # Extract the selected grid cell and place it in the right panel
+    cell = extract_cell(photo, GRID_COLS, GRID_ROWS,
+                        page["cell_col"], page["cell_row"])
     photo_x = inner_x + PANEL_W
     photo_w = inner_w - PANEL_W
     photo_h = inner_h
-    place_photo(canvas, photo, page["crop_x"], photo_x, inner_y, photo_w, photo_h)
+    place_cell(canvas, cell, page.get("crop_y_frac", 0.3),
+               photo_x, inner_y, photo_w, photo_h)
 
     # Dark text panel (left side)
     draw = ImageDraw.Draw(canvas, "RGBA")
@@ -186,11 +248,13 @@ def generate(photo, page, client):
 
 
 if __name__ == "__main__":
-    print("Loading input photo...")
+    print("Loading input collage...")
     photo = Image.open(INPUT_PHOTO).convert("RGBA")
-    print(f"  Size: {photo.size}")
+    cw, ch = photo.size[0] // GRID_COLS, photo.size[1] // GRID_ROWS
+    print(f"  Collage: {photo.size}  |  Cell size: {cw}x{ch}")
 
     print(f"\nGenerating {len(PAGES)} header images...\n")
     for page in PAGES:
+        print(f"  {page['slug']}  (cell r{page['cell_row']}c{page['cell_col']})")
         generate(photo, page, CLIENT)
     print(f"\nDone -> {CLIENT['output_dir']}")
