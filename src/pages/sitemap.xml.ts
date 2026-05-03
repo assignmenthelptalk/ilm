@@ -2,6 +2,8 @@ import { readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import type { APIRoute } from 'astro';
 
+export const prerender = true;
+
 const BASE_URL = 'https://www.ilmassignment.help';
 
 interface PageEntry {
@@ -32,6 +34,6 @@ export const GET: APIRoute = () => {
 </urlset>`;
 
   return new Response(xml, {
-    headers: { 'Content-Type': 'application/xml' },
+    headers: { 'Content-Type': 'application/xml; charset=utf-8' },
   });
 };
