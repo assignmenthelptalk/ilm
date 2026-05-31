@@ -1030,7 +1030,14 @@
           "title": "ILM Level 7 Assignment Help"
         }
       ],
-      "contextualQuestion": "Which ILM level matches your current management role?"
+      "contextualQuestion": "Which ILM level matches your current management role?",
+      "headerImage": {
+        "src": "/header_what-is-ilm.webp",
+        "alt": "What Is ILM? Qualifications, Levels, and How Leadership Assessment Works",
+        "title": "What Is ILM? Qualifications, Levels, and How Leadership Assessment Works",
+        "width": 1200,
+        "height": 400
+      }
     },
     {
       "slug": "ilm-vs-cmi",
@@ -1084,7 +1091,14 @@
           "title": "What Is ILM?"
         }
       ],
-      "contextualQuestion": "Can you hold both ILM and CMI qualifications?"
+      "contextualQuestion": "Can you hold both ILM and CMI qualifications?",
+      "headerImage": {
+        "src": "/header_ilm-vs-cmi.webp",
+        "alt": "ILM vs CMI — Which Leadership Qualification Is Right for You?",
+        "title": "ILM vs CMI — Which Leadership Qualification Is Right for You?",
+        "width": 1200,
+        "height": 400
+      }
     },
     {
       "slug": "ilm-qualification-levels-explained",
@@ -1150,7 +1164,14 @@
           "title": "ILM Level 4 Assignment Help"
         }
       ],
-      "contextualQuestion": "What happens if you start at the wrong ILM level?"
+      "contextualQuestion": "What happens if you start at the wrong ILM level?",
+      "headerImage": {
+        "src": "/header_ilm-qualification-levels-explained.webp",
+        "alt": "ILM Qualification Levels Explained — Level 2 to Level 7",
+        "title": "ILM Qualification Levels Explained — Level 2 to Level 7",
+        "width": 1200,
+        "height": 400
+      }
     },
     {
       "slug": "ilm-level-5-vs-level-7",
@@ -1204,7 +1225,14 @@
           "title": "Harvard Referencing for ILM"
         }
       ],
-      "contextualQuestion": "Can you go straight to Level 7 without Level 5?"
+      "contextualQuestion": "Can you go straight to Level 7 without Level 5?",
+      "headerImage": {
+        "src": "/header_ilm-level-5-vs-level-7.webp",
+        "alt": "ILM Level 5 vs Level 7 — Assignment Differences and Career Value",
+        "title": "ILM Level 5 vs Level 7 — Assignment Differences and Career Value",
+        "width": 1200,
+        "height": 400
+      }
     },
     {
       "slug": "ilm-academic-integrity-policy",
@@ -1258,7 +1286,14 @@
           "title": "ILM Referral and Resubmission Guide"
         }
       ],
-      "contextualQuestion": "Using ILM assignment support responsibly"
+      "contextualQuestion": "Using ILM assignment support responsibly",
+      "headerImage": {
+        "src": "/header_ilm-academic-integrity-policy.webp",
+        "alt": "ILM Academic Integrity Policy — What City & Guilds Allows",
+        "title": "ILM Academic Integrity Policy — What City & Guilds Allows",
+        "width": 1200,
+        "height": 400
+      }
     },
     {
       "slug": "ilm-apprenticeship-assignment-help",
@@ -1312,7 +1347,14 @@
           "title": "ILM End Point Assessment Help"
         }
       ],
-      "contextualQuestion": "Standalone ILM vs Apprenticeship-Route ILM: Key Differences"
+      "contextualQuestion": "Standalone ILM vs Apprenticeship-Route ILM: Key Differences",
+      "headerImage": {
+        "src": "/header_ilm-apprenticeship-assignment-help.webp",
+        "alt": "ILM Apprenticeship Assignment Help — Team Leader and Operations Manager Standards",
+        "title": "ILM Apprenticeship Assignment Help — Team Leader and Operations Manager Standards",
+        "width": 1200,
+        "height": 400
+      }
     },
     {
       "slug": "ilm-end-point-assessment-epa-help",
@@ -1366,7 +1408,14 @@
           "title": "ILM Level 5 Assignment Help"
         }
       ],
-      "contextualQuestion": "EPA vs ILM Qualification Assessment: Two Different Standards"
+      "contextualQuestion": "EPA vs ILM Qualification Assessment: Two Different Standards",
+      "headerImage": {
+        "src": "/header_ilm-end-point-assessment-epa-help.webp",
+        "alt": "ILM End Point Assessment (EPA) Help — Professional Discussion Preparation",
+        "title": "ILM End Point Assessment (EPA) Help — Professional Discussion Preparation",
+        "width": 1200,
+        "height": 400
+      }
     }
   ]
 }
