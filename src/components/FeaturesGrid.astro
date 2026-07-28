@@ -6,14 +6,15 @@ interface Card {
 }
 
 interface Props {
+  sectionId?: string;
   heading: string;
   cards: Card[];
 }
 
-const { heading, cards } = Astro.props;
+const { sectionId, heading, cards } = Astro.props;
 ---
 
-<section class="features">
+<section class="features" id={sectionId}>
   <div class="container">
     <h2 class="section-heading">{heading}</h2>
     <div class="features__grid">

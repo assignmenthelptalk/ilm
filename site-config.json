@@ -7,20 +7,20 @@
     "googleFontsUrl": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
   },
   "colors": {
-    "primary": "#14532D",
-    "primaryDark": "#0A3019",
-    "accent": "#EAB308",
-    "accentDark": "#CA8A04",
-    "accentLight": "#FEF9C3",
-    "gold": "#EAB308",
-    "goldDark": "#CA8A04",
-    "textBase": "#1A1A2E",
-    "textMuted": "#6B7280",
+    "primary": "#0D1F35",
+    "primaryDark": "#0A1525",
+    "accent": "#FFD700",
+    "accentDark": "#FFED4E",
+    "accentLight": "#FFF6D6",
+    "gold": "#FFD700",
+    "goldDark": "#FFED4E",
+    "textBase": "#333333",
+    "textMuted": "#555555",
     "bgWhite": "#FFFFFF",
-    "bgLight": "#F3F4F6",
-    "bgDark": "#14532D",
-    "borderLight": "#E5E7EB",
-    "starColor": "#F59E0B",
+    "bgLight": "#F8F9FA",
+    "bgDark": "#2C5282",
+    "borderLight": "#D0D5DD",
+    "starColor": "#FFD700",
     "white": "#FFFFFF"
   },
   "typography": {
@@ -31,20 +31,24 @@
     "logoHref": "/",
     "navLinks": [
       {
+        "label": "Home",
+        "href": "/#home"
+      },
+      {
+        "label": "Qualifications",
+        "href": "/#qualifications"
+      },
+      {
         "label": "Services",
-        "href": "#services"
+        "href": "/#services"
       },
       {
         "label": "About",
-        "href": "#about"
+        "href": "/#about"
       },
       {
-        "label": "How It Works",
-        "href": "#how-it-works"
-      },
-      {
-        "label": "FAQ",
-        "href": "#faq"
+        "label": "Contact",
+        "href": "/#contact"
       }
     ],
     "ctaButton": {
@@ -132,7 +136,7 @@
     "imagePlaceholderAlt": "ILM Assignment Help illustration"
   },
   "qualifications": {
-    "sectionId": "services",
+    "sectionId": "qualifications",
     "heading": "ILM Qualifications We Cover",
     "subheading": "Expert support across all ILM leadership and management pathways — Level 2 to Level 7.",
     "cards": [
@@ -169,6 +173,7 @@
     ]
   },
   "features": {
+    "sectionId": "services",
     "heading": "What's Included in Every Order",
     "cards": [
       {
