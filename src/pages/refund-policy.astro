@@ -1,0 +1,98 @@
+---
+import config from '../../site-config.json';
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import PageHero from '../components/PageHero.astro';
+import FAQ from '../components/FAQ.astro';
+import FinalCTA from '../components/FinalCTA.astro';
+
+const { meta, colors, typography, header, footer, finalCta } = config;
+
+const pageTitle = 'Refund Policy | ILM Assignment Help';
+const pageDescription = 'When a refund is available, when it is not, and how to request one at ILM Assignment Help.';
+
+const refundFaq = [
+  { question: 'How long does a refund take once approved?', answer: 'Approved refunds are typically processed within 5–10 business days. Once processed, funds usually appear within 3–7 business days depending on your payment provider.' },
+  { question: 'Do I need to request a revision before I can request a refund?', answer: 'Yes, in almost all cases. Refunds for quality or specification concerns are only considered after you have given us the opportunity to revise the work through our standard revision process.' },
+];
+---
+
+<Layout
+  title={pageTitle}
+  description={pageDescription}
+  faviconPath={meta.faviconPath}
+  googleFontsUrl={meta.googleFontsUrl}
+  fontFamily={typography.fontFamily}
+  colors={colors}
+>
+  <Header logoText={header.logoText} logoHref="/" navLinks={header.navLinks} />
+
+  <PageHero
+    badge="Legal"
+    crumbLabel="Refund Policy"
+    h1="Refund Policy"
+    intro="When a refund is available, when it isn't, and how to request one."
+  />
+
+  <main class="page-content">
+    <div class="container">
+      <article class="prose">
+        <span class="last-updated">Last updated: July 2026</span>
+
+        <h2>When a Refund Is Available</h2>
+        <ul>
+          <li>The order is not delivered by the confirmed deadline, and no advance notice of a delay was given</li>
+          <li>The work does not match the agreed brief or unit assessment criteria, and this remains unresolved after the standard revision process</li>
+          <li>A quality issue you have raised remains unresolved after we have had a full opportunity to revise the work</li>
+        </ul>
+        <p>Refunds may be full or partial, depending on the extent of the shortfall and how much of the order was affected.</p>
+
+        <h2>When a Refund Is Not Available</h2>
+        <ul>
+          <li>The work has already been revised to meet the agreed brief and assessment criteria</li>
+          <li>You are requesting changes that go beyond the original scope of the order (a new topic, a different unit, or a materially larger word count)</li>
+          <li>Specific concerns were not shared with us, so we were not given the opportunity to revise the work</li>
+          <li>The request is made more than 14 days after delivery, without an active revision request already in progress within that window</li>
+          <li>The dissatisfaction is general and not tied to a specific, documented assessment criterion or brief requirement</li>
+        </ul>
+        <p>
+          Refunds are not issued for a first draft alone, without a revision attempt first, since our standard
+          process is designed to resolve concerns through revision before a refund is considered.
+        </p>
+
+        <h2>How to Request a Refund</h2>
+        <p>
+          Contact us at <a href={`mailto:${footer.contactEmail}`}>{footer.contactEmail}</a> or via
+          <a href={`https://wa.me/${footer.whatsapp.replace(/\D/g, '')}`} target="_blank" rel="noopener noreferrer">WhatsApp</a>,
+          quoting your order details and the specific reason for the request. We aim to respond to refund requests
+          within 3–5 business days. Where a refund is approved, processing typically takes 5–10 business days, plus
+          your payment provider's own processing time.
+        </p>
+
+        <h2>Related Policy</h2>
+        <p>
+          Our <a href="/money-back-guarantee/">money-back guarantee</a> sets out the specific conditions under which
+          a full refund is guaranteed. See also our <a href="/our-policy/">general service policy</a> for how
+          revisions and delivery work.
+        </p>
+      </article>
+    </div>
+  </main>
+
+  <FAQ sectionId="refund-faq" heading="Common Questions" items={refundFaq} />
+
+  <FinalCTA heading={finalCta.heading} subtext={finalCta.subtext} button={finalCta.button} />
+  <Footer
+    logoText={footer.logoText}
+    description={footer.description}
+    columns={footer.columns}
+    copyright={footer.copyright}
+    contactEmail={footer.contactEmail}
+    whatsapp={footer.whatsapp}
+  />
+</Layout>
+
+<style>
+  .page-content .container { max-width: 820px; }
+</style>

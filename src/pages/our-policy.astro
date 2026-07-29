@@ -1,0 +1,113 @@
+---
+import config from '../../site-config.json';
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import PageHero from '../components/PageHero.astro';
+import FinalCTA from '../components/FinalCTA.astro';
+
+const { meta, colors, typography, header, footer, finalCta } = config;
+
+const pageTitle = 'Our Policy | ILM Assignment Help';
+const pageDescription = 'An overview of how ILM Assignment Help operates: confidentiality, writer standards, revisions, delivery, academic integrity, and data security.';
+---
+
+<Layout
+  title={pageTitle}
+  description={pageDescription}
+  faviconPath={meta.faviconPath}
+  googleFontsUrl={meta.googleFontsUrl}
+  fontFamily={typography.fontFamily}
+  colors={colors}
+>
+  <Header logoText={header.logoText} logoHref="/" navLinks={header.navLinks} />
+
+  <PageHero
+    badge="Legal"
+    crumbLabel="Our Policy"
+    h1="Our Policy"
+    intro="An overview of how we operate: confidentiality, writer standards, revisions, delivery, academic integrity, and data security. For the full legal detail, see the specific policies linked from each section."
+  />
+
+  <main class="page-content">
+    <div class="container">
+      <article class="prose">
+        <span class="last-updated">Last updated: July 2026</span>
+
+        <h2>1. Confidentiality Policy</h2>
+        <p>
+          Your identity, employer, workplace details, and order content are never disclosed to any third party
+          outside the writer and reviewer assigned to your order. Your work is never resold, published, or reused for
+          any other order. Access to your order details is restricted to the staff directly involved in completing
+          it.
+        </p>
+
+        <h2>2. Writer Standards and Vetting Policy</h2>
+        <p>
+          Writers are selected specifically for direct, practical familiarity with City & Guilds ILM units,
+          assessment criteria, and work-based evidence standards at the level they are assigned to work on. Writers
+          are not assigned to orders outside their verified area of ILM knowledge.
+        </p>
+
+        <h2>3. Revision Policy</h2>
+        <p>
+          Revisions are unlimited and free of charge within 14 days of delivery, provided the requested changes stay
+          within the original brief and assessment criteria. Typical revision turnaround is 2–5 business days
+          depending on the scope of the request. Requests submitted after the 14-day window, or that expand the
+          original scope, may be treated as a new order. Full detail is set out in our
+          <a href="/refund-policy/">refund policy</a>.
+        </p>
+
+        <h2>4. Delivery Policy</h2>
+        <p>
+          We aim to deliver every order by the confirmed deadline. If a delay becomes unavoidable, we will notify you
+          as early as possible, and in any event no later than 48 hours before the original deadline. Completed work
+          is delivered as an editable document by email or through our order platform.
+        </p>
+
+        <h2>5. Academic Integrity Policy</h2>
+        <p>
+          Our support is structured to develop your understanding of what your ILM assessment criteria require and
+          how to evidence your own management practice, comparable to a study coach, model-answer resource, or tutor.
+          We do not submit work on your behalf, impersonate you with your training provider, or represent our output
+          as anything other than reference material for your own use. You are responsible for using our support in a
+          way that is consistent with your training provider's academic integrity requirements. See our full
+          <a href="/ilm-academic-integrity-policy/">ILM academic integrity policy</a> for the detailed boundary
+          between legitimate support and malpractice.
+        </p>
+
+        <h2>6. Data Security Policy</h2>
+        <p>
+          Files and order details are stored securely and accessed only by staff directly involved in your order. We
+          do not retain order materials beyond what is needed to complete your order and handle any subsequent
+          revision requests. Payments are processed by secure third-party payment providers; we do not store your
+          card details directly. See our <a href="/privacy-policy/">privacy policy</a> for full detail on data
+          handling.
+        </p>
+
+        <h2>Related Policies</h2>
+        <ul>
+          <li><a href="/privacy-policy/">Privacy Policy</a>, how we collect, use, and protect your personal data</li>
+          <li><a href="/refund-policy/">Refund Policy</a>, when a refund is and is not available</li>
+          <li><a href="/money-back-guarantee/">Money Back Guarantee</a>, what our guarantee specifically covers</li>
+          <li><a href="/terms-conditions/">Terms & Conditions</a>, the full agreement covering every order</li>
+          <li><a href="/cookie-policy/">Cookie Policy</a>, what cookies this site uses and why</li>
+        </ul>
+      </article>
+    </div>
+  </main>
+
+  <FinalCTA heading={finalCta.heading} subtext={finalCta.subtext} button={finalCta.button} />
+  <Footer
+    logoText={footer.logoText}
+    description={footer.description}
+    columns={footer.columns}
+    copyright={footer.copyright}
+    contactEmail={footer.contactEmail}
+    whatsapp={footer.whatsapp}
+  />
+</Layout>
+
+<style>
+  .page-content .container { max-width: 820px; }
+</style>

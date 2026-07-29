@@ -1,0 +1,77 @@
+---
+import config from '../../site-config.json';
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import PageHero from '../components/PageHero.astro';
+import FAQ from '../components/FAQ.astro';
+import FinalCTA from '../components/FinalCTA.astro';
+
+const { meta, colors, typography, header, footer, finalCta } = config;
+
+const pageTitle = 'FAQ | ILM Assignment Help';
+const pageDescription = 'Answers to common questions about ILM assignment help: which levels we cover, turnaround times, referencing, confidentiality, revisions, and how ordering works.';
+
+const aboutService = [
+  { question: 'Is this service specific to ILM qualifications?', answer: 'Yes. We specialise exclusively in City & Guilds ILM qualifications. Our writers are selected for their specific knowledge of ILM units, marking criteria, and grade descriptors, not generic academic writing across other subjects.' },
+  { question: 'Which ILM levels do you cover?', answer: 'All six levels: Level 2 introductory awards, Level 3 team leader and first-line supervisor units, Level 4 junior middle management, Level 5 middle management and operations, Level 6 professional management, and Level 7 senior and strategic leadership.' },
+  { question: 'Do you support the Coaching and Mentoring pathway?', answer: 'Yes, at Level 3, Level 5, and Level 7, including coaching session logs, coaching philosophy statements, critical review of coaching models, and coaching supervision documentation.' },
+  { question: 'Are your writers ILM specialists or general academic writers?', answer: 'Writers are matched to orders based on direct familiarity with ILM units, assessment criteria, and work-based evidence standards at the specific level involved. We do not use writers whose only background is generic academic essay writing.' },
+];
+
+const qualityDelivery = [
+  { question: 'Will my assignment be plagiarism free?', answer: 'Every assignment is written from scratch and run through Turnitin before delivery. You receive a copy of the originality report alongside your completed work.' },
+  { question: 'How quickly can you complete my assignment?', answer: 'Standard turnaround is 5–7 days. For urgent orders we offer 24-hour and 48-hour expedited delivery at an additional cost. Contact us to confirm availability for your specific deadline.' },
+  { question: 'What if I\'m not happy with the work?', answer: 'We offer unlimited free revisions within 14 days of delivery. If we cannot meet your requirements after multiple revisions, full detail on refund eligibility is set out in our refund policy.' },
+  { question: 'Do you provide Harvard referencing?', answer: 'Yes, as standard from Level 4 upward, with peer-reviewed academic journal sourcing where Level 7 requires it. See our Harvard referencing guide for the exact citation formats ILM assessors expect.' },
+  { question: 'What if my assignment is referred by my assessor?', answer: 'Send us the assessor feedback and we will map it criterion by criterion against a resubmission plan, targeting exactly what was flagged rather than a wholesale rewrite. See our referral and resubmission guide for how this process works.' },
+];
+
+const confidentiality = [
+  { question: 'Is my information kept confidential?', answer: 'Absolutely. We never share your personal information or order details with any third party. Payments are processed through secure, encrypted channels and no identifying information is stored unnecessarily.' },
+  { question: 'Is using this service compliant with academic integrity requirements?', answer: 'Our guidance is structured to develop your understanding of your ILM criteria and how to evidence your own management practice, in the same way a study coach or model-answer resource would. See our ILM academic integrity policy for the specific boundary between legitimate support and malpractice.' },
+  { question: 'Will my tutor or employer know I used this service?', answer: 'No. Your identity, employer, and workplace details are never disclosed to your training provider, tutor, or assessor. Orders are handled confidentially between you and your assigned writer.' },
+];
+
+const ordersPayment = [
+  { question: 'How do I place an order?', answer: 'Contact us via WhatsApp or email with your ILM level, unit name, deadline, and assignment brief. We confirm availability and pricing before any work begins.' },
+  { question: 'What payment methods do you accept?', answer: 'Payments are processed through secure third-party payment providers. We do not store your card details directly.' },
+  { question: 'Is there a money-back guarantee?', answer: 'Yes. Full detail on what is and is not covered is set out in our money-back guarantee page, alongside our general refund policy.' },
+  { question: 'Can I request changes after placing my order?', answer: 'Yes, provided the change is within the original scope and communicated as early as possible. Significant scope changes, such as a different unit or a materially different word count, are treated as a new order.' },
+];
+---
+
+<Layout
+  title={pageTitle}
+  description={pageDescription}
+  faviconPath={meta.faviconPath}
+  googleFontsUrl={meta.googleFontsUrl}
+  fontFamily={typography.fontFamily}
+  colors={colors}
+>
+  <Header logoText={header.logoText} logoHref="/" navLinks={header.navLinks} />
+
+  <PageHero
+    badge="Support"
+    crumbLabel="FAQ"
+    h1="Frequently Asked Questions"
+    intro="Everything you need to know about how ILM Assignment Help works, from turnaround times and referencing to confidentiality and refunds. Can't find your answer? Contact us directly."
+    ctaLabel="Contact Us"
+    ctaHref="/contact-us/"
+  />
+
+  <FAQ sectionId="faq-about" heading="About the Service" items={aboutService} />
+  <FAQ sectionId="faq-quality" heading="Quality, Revisions, and Delivery" items={qualityDelivery} />
+  <FAQ sectionId="faq-confidentiality" heading="Confidentiality and Academic Integrity" items={confidentiality} />
+  <FAQ sectionId="faq-orders" heading="Orders, Payment, and Guarantees" items={ordersPayment} />
+
+  <FinalCTA heading={finalCta.heading} subtext={finalCta.subtext} button={finalCta.button} />
+  <Footer
+    logoText={footer.logoText}
+    description={footer.description}
+    columns={footer.columns}
+    copyright={footer.copyright}
+    contactEmail={footer.contactEmail}
+    whatsapp={footer.whatsapp}
+  />
+</Layout>

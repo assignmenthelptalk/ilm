@@ -1,0 +1,163 @@
+---
+import config from '../../site-config.json';
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import PageHero from '../components/PageHero.astro';
+import FAQ from '../components/FAQ.astro';
+import FinalCTA from '../components/FinalCTA.astro';
+
+const { meta, colors, typography, header, footer, finalCta } = config;
+
+const pageTitle = 'Sample ILM Assignment Extracts | ILM Assignment Help';
+const pageDescription = 'Anonymised extracts from ILM assignment work at Level 3, Level 5, and Level 7, illustrating the analytical standard our writers produce at each level.';
+
+const samplesFaq = [
+  { question: 'Can I get a full sample assignment rather than an extract?', answer: 'These extracts are illustrative reference models, not full assignments available for direct copying, since ILM work must be genuinely evidenced from your own workplace practice. Contact us with your specific unit and we can talk through what a strong submission looks like for your criteria.' },
+  { question: 'Are these extracts from real student submissions?', answer: 'These are illustrative, anonymised model extracts written to demonstrate the standard of analysis ILM assessors expect at each level. They are not lifted from any individual student’s actual submission.' },
+  { question: 'Can I submit an extract like this as my own work?', answer: 'No. Submitting content that is not evidenced from your own workplace practice as your own work would breach ILM’s academic integrity policy. These extracts exist to show the standard of analysis expected, not as ready-made text.' },
+];
+---
+
+<Layout
+  title={pageTitle}
+  description={pageDescription}
+  faviconPath={meta.faviconPath}
+  googleFontsUrl={meta.googleFontsUrl}
+  fontFamily={typography.fontFamily}
+  colors={colors}
+>
+  <Header logoText={header.logoText} logoHref="/" navLinks={header.navLinks} />
+
+  <PageHero
+    badge="Samples"
+    crumbLabel="Samples"
+    h1="Sample ILM Assignment Extracts"
+    intro="A few short, anonymised extracts showing the standard of analysis our writers produce at Level 3, Level 5, and Level 7. These are illustrative models, not full assignments for direct copying."
+  />
+
+  <main class="page-content">
+    <div class="container">
+      <div class="disclaimer-box">
+        <strong>A note on these extracts:</strong> every example below is an illustrative model written to demonstrate
+        analytical standard, not an extract from a real student's submission. ILM assignments must be evidenced from
+        your own workplace practice, so these extracts are for reference only, not for direct reuse. See our
+        <a href="/ilm-academic-integrity-policy/">academic integrity policy</a> for where that boundary sits.
+      </div>
+
+      <article class="prose">
+        <h2>Sample Extract: Level 3 Reflective Account (Gibbs' Analysis Stage)</h2>
+        <p class="sample-meta">Unit context: Understanding Conflict Management in the Workplace</p>
+        <blockquote class="sample-quote">
+          "My avoidance behaviour reflects what McGregor (1960) would identify as a Theory Y management assumption
+          taken to an unproductive extreme: I prioritised relationship maintenance over the team member's development
+          need, creating the inverse of what Theory Y management should achieve. Herzberg's (1959) two-factor theory
+          provides a further frame: my delay had allowed an absence pattern to become normalised, which represented a
+          hygiene factor failure rather than a motivational deficit."
+        </blockquote>
+        <p>
+          This extract sits in the Analysis stage of a Gibbs-structured reflective account. It connects a specific,
+          real management decision to two named theoretical frameworks rather than simply describing what happened,
+          which is the distinction Level 3 and Level 5 assessors are trained to look for.
+        </p>
+
+        <h2>Sample Extract: Level 5 Distinction-Standard 360-Degree Feedback Analysis</h2>
+        <p class="sample-meta">Unit context: Becoming an Effective Leader</p>
+        <blockquote class="sample-quote">
+          "The variance between my direct reports' rating of my Individualised Consideration (2.7/5) and my own
+          self-assessment (3.8/5) is the most significant gap in my 360-degree feedback and indicates that my
+          perception of how consistently I attend to individual development needs differs substantially from my
+          team's experience of it, a finding consistent with Bass's (1985) research showing that managers who
+          identify with transformational values often apply them less consistently in day-to-day practice than in
+          high-visibility leadership moments."
+        </blockquote>
+        <p>
+          This is what distinction-standard analysis looks like at Level 5: a specific evidential finding (the exact
+          score gap) connected to a specific theoretical concept, with an evaluative judgment about what the
+          combination reveals, rather than a general description of what the theory says.
+        </p>
+
+        <h2>Sample Extract: Level 7 Critical Synthesis</h2>
+        <p class="sample-meta">Unit context: Developing Strategic Leadership</p>
+        <blockquote class="sample-quote">
+          "...the organisation's strategic challenge is fundamentally an adaptive challenge rather than a technical
+          one (Heifetz and Linsky, 2002), that the complexity of the public sector stakeholder environment requires
+          network-level adaptive leadership to emerge (Uhl-Bien et al., 2007) rather than being managed through
+          top-down strategic planning, and that the organisation's own systems dynamics (Senge, 1990), specifically a
+          reinforcing loop between resource constraint, staff disengagement, and service quality decline, are
+          amplifying the strategic challenge beyond the capacity of conventional change management to address."
+        </blockquote>
+        <p>
+          This is Level 7 critical synthesis: three competing theoretical frameworks held in dialogue and integrated
+          into a single original argument, rather than applied one after another as separate, unconnected analyses.
+        </p>
+
+        <h2>Sample Extract: Harvard Reference List Formatting</h2>
+        <p class="sample-meta">Formatted per ILM Harvard referencing standard, Level 5 and Level 7</p>
+        <blockquote class="sample-quote sample-quote--refs">
+          Bass, B.M. (1985). <em>Leadership and Performance Beyond Expectations</em>. New York: Free Press.<br />
+          Heifetz, R.A. and Linsky, M. (2002). <em>Leadership on the Line: Staying Alive Through the Dangers of Leading</em>. Boston: Harvard Business School Press.<br />
+          Uhl-Bien, M., Marion, R. and McKelvey, B. (2007). Complexity Leadership Theory: Shifting leadership from the industrial age to the knowledge era. <em>The Leadership Quarterly</em>, 18(4), pp. 298–318.
+        </blockquote>
+        <p>
+          Full detail on correct formatting for every reference type ILM assignments use, including books, journal
+          articles, and unit specifications, is available in our
+          <a href="/ilm-assignment-harvard-referencing-guide/">Harvard referencing guide</a>.
+        </p>
+      </article>
+    </div>
+  </main>
+
+  <FAQ sectionId="samples-faq" heading="Questions About Our Samples" items={samplesFaq} />
+
+  <FinalCTA
+    heading="Want to See How This Applies to Your Specific Unit?"
+    subtext="Send us your ILM level and unit name and we'll talk you through what a strong submission looks like for your exact assessment criteria."
+    button={finalCta.button}
+  />
+  <Footer
+    logoText={footer.logoText}
+    description={footer.description}
+    columns={footer.columns}
+    copyright={footer.copyright}
+    contactEmail={footer.contactEmail}
+    whatsapp={footer.whatsapp}
+  />
+</Layout>
+
+<style>
+  .page-content .container { max-width: 820px; }
+  .disclaimer-box {
+    background-color: var(--color-accent-light);
+    border: 1px solid var(--color-accent);
+    border-radius: 0.75rem;
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 2.5rem;
+    font-size: 0.9375rem;
+    color: var(--color-text-base);
+    line-height: 1.7;
+  }
+  .disclaimer-box a { color: var(--color-primary); text-decoration: underline; font-weight: 600; }
+  .sample-meta {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    margin-bottom: 0.75rem !important;
+  }
+  .sample-quote {
+    background-color: var(--color-bg-light);
+    border-left: 4px solid var(--color-accent);
+    border-radius: 0.5rem;
+    padding: 1.25rem 1.5rem;
+    margin: 0 0 1rem;
+    font-style: italic;
+    color: var(--color-text-base);
+    line-height: 1.75;
+  }
+  .sample-quote--refs {
+    font-style: normal;
+    font-size: 0.9375rem;
+  }
+</style>

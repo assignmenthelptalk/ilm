@@ -1,0 +1,149 @@
+---
+import config from '../../site-config.json';
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import PageHero from '../components/PageHero.astro';
+import StatsBar from '../components/StatsBar.astro';
+import WhyChooseUs from '../components/WhyChooseUs.astro';
+import Testimonials from '../components/Testimonials.astro';
+import FAQ from '../components/FAQ.astro';
+import FinalCTA from '../components/FinalCTA.astro';
+
+const { meta, colors, typography, header, footer, stats, whyChooseUs, testimonials, faq, finalCta } = config;
+
+const pageTitle = 'About Us | ILM Assignment Help';
+const pageDescription = "Learn who's behind ILM Assignment Help: a specialist team supporting City & Guilds ILM candidates from Level 2 to Level 7 with work-based evidence, reflective accounts, and criterion-referenced writing.";
+
+const aboutFaq = faq.items.slice(0, 4);
+---
+
+<Layout
+  title={pageTitle}
+  description={pageDescription}
+  faviconPath={meta.faviconPath}
+  googleFontsUrl={meta.googleFontsUrl}
+  fontFamily={typography.fontFamily}
+  colors={colors}
+>
+  <Header logoText={header.logoText} logoHref="/" navLinks={header.navLinks} />
+
+  <PageHero
+    badge="Company"
+    crumbLabel="About Us"
+    h1="About ILM Assignment Help"
+    intro="We are a specialist assignment support service built around one qualification family: City & Guilds ILM leadership and management qualifications, from Level 2 through to Level 7 and the Coaching & Mentoring pathway."
+    ctaLabel={header.ctaButton.label}
+    ctaHref={header.ctaButton.href}
+  />
+
+  <StatsBar stats={stats} />
+
+  <main class="page-content">
+    <div class="container page-content--narrow-inner">
+      <article class="prose">
+        <h2>Who We Are</h2>
+        <p>
+          ILM Assignment Help is a specialist writing and academic support service for candidates studying City & Guilds
+          ILM leadership and management qualifications. We do not offer generic essay-writing help across every subject.
+          We work exclusively within the ILM qualification framework, which means every writer on our team understands
+          how ILM units are structured, how assessment criteria are worded, and what the difference is between a
+          submission that passes and one that reaches Distinction.
+        </p>
+        <p>
+          That focus matters because ILM assessment is not a conventional academic essay format. It is criterion-referenced
+          and work-based: assignments are marked against specific, numbered assessment criteria, and every criterion has
+          to be evidenced individually from the candidate's own workplace practice. Missing one criterion results in a
+          referral regardless of how strong the rest of the submission is. Generic academic writers who have not worked
+          inside this assessment model consistently miss that distinction, which is the single most common reason ILM
+          submissions come back referred.
+        </p>
+
+        <h2>Our Writers and Their ILM Background</h2>
+        <p>
+          Every writer we work with has direct, practical familiarity with ILM units, learning outcomes, and grade
+          descriptors across Levels 2 to 7. That includes the work-based evidence standards ILM assessors apply, the
+          reflective practice frameworks ILM units expect (Gibbs, Kolb, and Schön), and the Harvard referencing
+          conventions required from Level 4 upward. Writers are matched to orders based on the specific ILM level and
+          unit involved, not assigned generically.
+        </p>
+        <p>
+          We do not use writers whose only experience is general management essay writing. ILM's assessment model
+          rewards candidates who can connect theory to real, evidenced workplace practice, and that is the specific
+          skill our writers are selected for.
+        </p>
+
+        <h2>Coverage Across Every ILM Level and Pathway</h2>
+        <p>
+          Support is available across the full ILM qualification ladder: Level 2 introductory awards, Level 3 team
+          leader and first-line supervisor units, Level 4 junior middle management units, Level 5 middle management and
+          operations units, Level 6 professional management units, and Level 7 senior leadership and strategic units.
+          The Coaching and Mentoring pathway is supported separately at Levels 3, 5, and 7, including coaching session
+          logs, coaching philosophy statements, and supervision documentation.
+        </p>
+
+        <h2>What "ILM-Standard" Actually Means</h2>
+      </article>
+
+      <div class="info-grid">
+        <div class="info-card">
+          <h3 class="info-card__title"><span class="info-card__icon">📋</span> Criterion-by-criterion coverage</h3>
+          <p class="info-card__desc">Every assessment criterion in the unit specification is identified and explicitly addressed, not inferred by the assessor from general coverage of the topic.</p>
+        </div>
+        <div class="info-card">
+          <h3 class="info-card__title"><span class="info-card__icon">🗂️</span> Genuine work-based evidence structure</h3>
+          <p class="info-card__desc">Written analysis is structured to connect to real workplace evidence, with clear annotation showing how each piece of evidence maps to a specific criterion.</p>
+        </div>
+        <div class="info-card">
+          <h3 class="info-card__title"><span class="info-card__icon">📚</span> Harvard referencing as standard</h3>
+          <p class="info-card__desc">Correctly formatted in-text citations and reference lists from Level 4 upward, with peer-reviewed journal sourcing where Level 7 requires it.</p>
+        </div>
+        <div class="info-card">
+          <h3 class="info-card__title"><span class="info-card__icon">🔍</span> Turnitin originality report</h3>
+          <p class="info-card__desc">Every completed assignment is checked before delivery, and a copy of the originality report is provided alongside the finished work.</p>
+        </div>
+      </div>
+
+      <article class="prose">
+        <h2>Confidentiality and Academic Integrity</h2>
+        <p>
+          Orders are kept confidential. Your identity, employer, and workplace details are never shared outside the
+          writer and reviewer assigned to your order, and nothing you submit to us is resold or reused for anyone else.
+          We are explicit about where our support sits relative to academic integrity: our guidance is structured to
+          develop your understanding of what your ILM criteria require and how to evidence your own management
+          practice, in the same way a model answer, study coach, or tutor would. The management experience being
+          evidenced in your submission is your own; our role is the structured writing and analytical support that
+          helps you present it to the standard your assessor expects. For the full detail on this boundary, see our
+          <a href="/ilm-academic-integrity-policy/">ILM academic integrity policy</a>.
+        </p>
+
+        <h2>Revisions Until Your Criteria Are Met</h2>
+        <p>
+          If an assignment comes back needing changes, revisions are unlimited and free within 14 days of delivery.
+          Full detail on how revisions and refunds work is set out in our
+          <a href="/our-policy/">service policy</a> and <a href="/refund-policy/">refund policy</a>.
+        </p>
+      </article>
+    </div>
+  </main>
+
+  <WhyChooseUs heading={whyChooseUs.heading} items={whyChooseUs.items} />
+  <Testimonials heading={testimonials.heading} items={testimonials.items} />
+  <FAQ sectionId="about-faq" heading="Common Questions About Us" items={aboutFaq} />
+
+  <FinalCTA heading={finalCta.heading} subtext={finalCta.subtext} button={finalCta.button} />
+  <Footer
+    logoText={footer.logoText}
+    description={footer.description}
+    columns={footer.columns}
+    copyright={footer.copyright}
+    contactEmail={footer.contactEmail}
+    whatsapp={footer.whatsapp}
+  />
+</Layout>
+
+<style>
+  .page-content--narrow-inner {
+    max-width: 820px;
+  }
+</style>

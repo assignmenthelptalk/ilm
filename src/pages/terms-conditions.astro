@@ -1,0 +1,135 @@
+---
+import config from '../../site-config.json';
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import PageHero from '../components/PageHero.astro';
+import FinalCTA from '../components/FinalCTA.astro';
+
+const { meta, colors, typography, header, footer, finalCta } = config;
+
+const pageTitle = 'Terms & Conditions | ILM Assignment Help';
+const pageDescription = 'The terms and conditions governing every order placed with ILM Assignment Help.';
+---
+
+<Layout
+  title={pageTitle}
+  description={pageDescription}
+  faviconPath={meta.faviconPath}
+  googleFontsUrl={meta.googleFontsUrl}
+  fontFamily={typography.fontFamily}
+  colors={colors}
+>
+  <Header logoText={header.logoText} logoHref="/" navLinks={header.navLinks} />
+
+  <PageHero
+    badge="Legal"
+    crumbLabel="Terms & Conditions"
+    h1="Terms & Conditions"
+    intro="The terms that apply to every order placed with ILM Assignment Help, across WhatsApp, email, or our order platform."
+  />
+
+  <main class="page-content">
+    <div class="container">
+      <article class="prose">
+        <span class="last-updated">Last updated: July 2026</span>
+
+        <h2>1. Agreement to These Terms</h2>
+        <p>
+          By placing an order with ILM Assignment Help, whether via WhatsApp, email, or our order platform, you agree
+          to these terms. They apply regardless of which channel you use to place your order.
+        </p>
+
+        <h2>2. The Service</h2>
+        <p>
+          We provide academic writing and assignment support for candidates studying City & Guilds ILM leadership and
+          management qualifications. Our output is expert-written reference and guidance material, intended to
+          support your own understanding and evidencing of your management practice. We do not guarantee a specific
+          grade or assessment outcome, since that depends on factors outside our control, including your own use of
+          the material and your assessor's judgement.
+        </p>
+
+        <h2>3. Orders and Payment</h2>
+        <p>
+          An order is confirmed once you have agreed the scope, deadline, and price with us. Pricing is based on ILM
+          level, unit complexity, word count, and deadline. Payment is processed through secure third-party payment
+          providers; we do not store your full card details.
+        </p>
+
+        <h2>4. Delivery</h2>
+        <p>
+          Completed work is delivered by email or through our order platform within the agreed timeframe. If a delay
+          becomes unavoidable on our side, we will give you at least 48 hours' notice ahead of the original deadline
+          where possible.
+        </p>
+
+        <h2>5. Revisions</h2>
+        <p>
+          Revisions are unlimited and free of charge within 14 days of delivery, provided the request is based on the
+          original brief and assessment criteria. Requests that go beyond the original scope, or that are made after
+          the 14-day window without an active revision already in progress, may be treated as a new order. Full
+          detail is set out in our <a href="/refund-policy/">refund policy</a>.
+        </p>
+
+        <h2>6. Intellectual Property</h2>
+        <p>
+          Once an order is paid in full, the completed work is yours to use as reference and guidance material for
+          your own assignment. Work that has not been paid for in full remains our property. We do not resell or
+          reuse your completed order for any other client.
+        </p>
+
+        <h2>7. Acceptable Use</h2>
+        <p>
+          Our output is intended as reference and guidance material to support your own academic work. You are
+          responsible for using it in a way that complies with your training provider's academic integrity policy.
+          See our <a href="/ilm-academic-integrity-policy/">ILM academic integrity policy</a> for the specific
+          boundary between legitimate support and malpractice. Redistribution of completed work to third parties
+          outside your own use is not permitted.
+        </p>
+
+        <h2>8. Confidentiality</h2>
+        <p>
+          Your personal details, employer, training provider, and order content are not shared outside the writer and
+          reviewer assigned to your order. See our <a href="/privacy-policy/">privacy policy</a> for full detail.
+        </p>
+
+        <h2>9. Limitation of Liability</h2>
+        <p>
+          Our liability for any claim relating to an order is limited to the amount paid for that order. We are not
+          liable for indirect or consequential losses, including any impact on your academic outcome. This does not
+          exclude or limit liability for fraud or for anything else which cannot lawfully be excluded or limited
+          under the law of England and Wales.
+        </p>
+
+        <h2>10. Refunds</h2>
+        <p>
+          Refund eligibility is set out in our <a href="/refund-policy/">refund policy</a> and
+          <a href="/money-back-guarantee/">money-back guarantee</a>, both of which form part of these terms.
+        </p>
+
+        <h2>11. Governing Law</h2>
+        <p>These terms are governed by the law of England and Wales, and any dispute is subject to the exclusive jurisdiction of the courts of England and Wales.</p>
+
+        <h2>12. Changes to These Terms</h2>
+        <p>
+          We may update these terms from time to time. The current version is always available at this page, and
+          continued use of our service after an update constitutes acceptance of the revised terms.
+        </p>
+      </article>
+    </div>
+  </main>
+
+  <FinalCTA heading={finalCta.heading} subtext={finalCta.subtext} button={finalCta.button} />
+  <Footer
+    logoText={footer.logoText}
+    description={footer.description}
+    columns={footer.columns}
+    copyright={footer.copyright}
+    contactEmail={footer.contactEmail}
+    whatsapp={footer.whatsapp}
+  />
+</Layout>
+
+<style>
+  .page-content .container { max-width: 820px; }
+</style>

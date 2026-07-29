@@ -1,0 +1,107 @@
+---
+import config from '../../site-config.json';
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import PageHero from '../components/PageHero.astro';
+import FAQ from '../components/FAQ.astro';
+import FinalCTA from '../components/FinalCTA.astro';
+
+const { meta, colors, typography, header, footer, faq, finalCta } = config;
+
+const pageTitle = 'Contact Us | ILM Assignment Help';
+const pageDescription = 'Get in touch with the ILM Assignment Help team via WhatsApp, email, or live chat. See what to include in your first message and how quickly we typically respond.';
+
+const contactFaq = faq.items.slice(0, 4);
+const whatsappHref = `https://wa.me/${footer.whatsapp.replace(/\D/g, '')}`;
+---
+
+<Layout
+  title={pageTitle}
+  description={pageDescription}
+  faviconPath={meta.faviconPath}
+  googleFontsUrl={meta.googleFontsUrl}
+  fontFamily={typography.fontFamily}
+  colors={colors}
+>
+  <Header logoText={header.logoText} logoHref="/" navLinks={header.navLinks} />
+
+  <PageHero
+    badge="Company"
+    crumbLabel="Contact Us"
+    h1="Contact Our ILM Assignment Help Team"
+    intro="Send us your ILM level, unit, and deadline, and we'll confirm availability and next steps directly. WhatsApp is the fastest channel for urgent orders."
+  />
+
+  <main class="page-content">
+    <div class="container">
+      <div class="channel-grid">
+        <div class="channel-card">
+          <div class="channel-card__icon" aria-hidden="true">💬</div>
+          <h2 class="channel-card__title">WhatsApp</h2>
+          <p class="channel-card__desc">The fastest way to reach us, especially for urgent or rush orders. Typical reply time is under an hour during UK business hours.</p>
+          <a href={whatsappHref} class="channel-card__link" target="_blank" rel="noopener noreferrer">{footer.whatsapp}</a>
+        </div>
+        <div class="channel-card">
+          <div class="channel-card__icon" aria-hidden="true">✉️</div>
+          <h2 class="channel-card__title">Email</h2>
+          <p class="channel-card__desc">Best for longer enquiries or when you need to attach a unit specification or assignment brief. Typical response is within 24 hours.</p>
+          <a href={`mailto:${footer.contactEmail}`} class="channel-card__link">{footer.contactEmail}</a>
+        </div>
+        <div class="channel-card">
+          <div class="channel-card__icon" aria-hidden="true">🟢</div>
+          <h2 class="channel-card__title">Live Chat</h2>
+          <p class="channel-card__desc">Use the chat widget in the corner of any page on this site for a quick question without leaving your browser.</p>
+          <span class="channel-card__desc" style="font-weight:600;">Available on every page</span>
+        </div>
+      </div>
+
+      <article class="prose">
+        <h2>What to Include When You First Contact Us</h2>
+        <p>The faster we can confirm availability and pricing, the faster your writer can get started. Where possible, your first message should include:</p>
+        <ul>
+          <li>Your ILM level (2, 3, 4, 5, 6, or 7) and pathway (Leadership and Management, or Coaching and Mentoring)</li>
+          <li>The specific unit name or unit reference number, if known</li>
+          <li>Your deadline, including time zone if it matters</li>
+          <li>The assignment brief or unit specification, if you have it to hand</li>
+          <li>Any specific guidance or feedback your tutor has already given you</li>
+        </ul>
+
+        <h2>Response Times</h2>
+        <p>
+          WhatsApp messages are typically answered within the hour during UK business hours, and often faster for
+          urgent enquiries. Email enquiries are answered within 24 hours. If you contact us outside UK business hours,
+          expect a reply at the start of the next working day.
+        </p>
+
+        <h2>Before You Contact Us</h2>
+        <p>
+          If your question is about how ILM assessment works generally, our level-by-level guidance may already answer
+          it: see <a href="/ilm-assignment-help/">ILM Assignment Help</a> for an overview, or jump straight to your
+          specific level via the <a href="/services/">Services</a> page. If you're not sure which level applies to your
+          current role, <a href="/ilm-qualification-levels-explained/">ILM Qualification Levels Explained</a> covers
+          exactly that.
+        </p>
+      </article>
+    </div>
+  </main>
+
+  <FAQ sectionId="contact-faq" heading="Common Questions" items={contactFaq} />
+
+  <FinalCTA heading={finalCta.heading} subtext={finalCta.subtext} button={finalCta.button} />
+  <Footer
+    logoText={footer.logoText}
+    description={footer.description}
+    columns={footer.columns}
+    copyright={footer.copyright}
+    contactEmail={footer.contactEmail}
+    whatsapp={footer.whatsapp}
+  />
+</Layout>
+
+<style>
+  .page-content .container article.prose {
+    max-width: 820px;
+    margin: 0 auto;
+  }
+</style>

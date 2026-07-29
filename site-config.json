@@ -328,25 +328,31 @@
   "footer": {
     "logoText": "ILM Help",
     "description": "The UK's specialist in ILM leadership and management assignment support. Helping students from Level 2 to Level 7 achieve outstanding results since 2014.",
+    "contactEmail": "assignmenthelptalk@gmail.com",
+    "whatsapp": "+44 7916 696894",
     "columns": [
       {
-        "heading": "Quick Links",
+        "heading": "Company",
         "links": [
           {
-            "label": "Services",
-            "href": "#services"
-          },
-          {
             "label": "About Us",
-            "href": "#about"
+            "href": "/about-us/"
           },
           {
-            "label": "How It Works",
-            "href": "#how-it-works"
+            "label": "Services",
+            "href": "/services/"
+          },
+          {
+            "label": "Contact Us",
+            "href": "/contact-us/"
           },
           {
             "label": "FAQ",
-            "href": "#faq"
+            "href": "/faq/"
+          },
+          {
+            "label": "Samples",
+            "href": "/samples/"
           }
         ]
       },
@@ -376,15 +382,31 @@
         ]
       },
       {
-        "heading": "Contact",
+        "heading": "Legal",
         "links": [
           {
-            "label": "support@ilm-help.co.uk",
-            "href": "mailto:support@ilm-help.co.uk"
+            "label": "Our Policy",
+            "href": "/our-policy/"
           },
           {
-            "label": "WhatsApp Us",
-            "href": "https://wa.me/447700900000"
+            "label": "Privacy Policy",
+            "href": "/privacy-policy/"
+          },
+          {
+            "label": "Refund Policy",
+            "href": "/refund-policy/"
+          },
+          {
+            "label": "Money Back Guarantee",
+            "href": "/money-back-guarantee/"
+          },
+          {
+            "label": "Terms & Conditions",
+            "href": "/terms-conditions/"
+          },
+          {
+            "label": "Cookie Policy",
+            "href": "/cookie-policy/"
           }
         ]
       }

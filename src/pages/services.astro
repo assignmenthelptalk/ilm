@@ -1,0 +1,108 @@
+---
+import config from '../../site-config.json';
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import PageHero from '../components/PageHero.astro';
+import QualificationsGrid from '../components/QualificationsGrid.astro';
+import FeaturesGrid from '../components/FeaturesGrid.astro';
+import HowItWorks from '../components/HowItWorks.astro';
+import FAQ from '../components/FAQ.astro';
+import FinalCTA from '../components/FinalCTA.astro';
+
+const { meta, colors, typography, header, footer, qualifications, features, howItWorks, faq, finalCta } = config;
+
+const pageTitle = 'ILM Assignment Help Services | Level 2 to Level 7';
+const pageDescription = 'Full range of ILM assignment support services: unit-specific writing, work-based evidence structuring, reflective accounts, coaching logs, and Harvard referencing across ILM Level 2 to Level 7.';
+
+const servicesFaq = faq.items.slice(0, 4);
+
+const supportServices = [
+  { icon: '📝', title: 'Reflective Account Writing', desc: 'Gibbs, Kolb, and Schön applied correctly to your own workplace experience, structured to the analytical depth your level requires.', href: '/ilm-reflective-account-writing-help/' },
+  { icon: '🗂️', title: 'Work-Based Evidence Structuring', desc: 'Help selecting, annotating, and mapping real workplace evidence against your unit’s specific assessment criteria.', href: '/ilm-work-based-evidence-guide/' },
+  { icon: '📚', title: 'Harvard Referencing Support', desc: 'Correctly formatted citations and reference lists for every ILM level, including peer-reviewed sourcing at Level 7.', href: '/ilm-assignment-harvard-referencing-guide/' },
+  { icon: '🔁', title: 'Referral and Resubmission Support', desc: 'Criterion-by-criterion review of assessor feedback and a targeted plan to fix exactly what was referred.', href: '/ilm-assignment-referral-and-resubmission-guide/' },
+];
+---
+
+<Layout
+  title={pageTitle}
+  description={pageDescription}
+  faviconPath={meta.faviconPath}
+  googleFontsUrl={meta.googleFontsUrl}
+  fontFamily={typography.fontFamily}
+  colors={colors}
+>
+  <Header logoText={header.logoText} logoHref="/" navLinks={header.navLinks} />
+
+  <PageHero
+    badge="Services"
+    crumbLabel="Services"
+    h1="ILM Assignment Help Services"
+    intro="Unit-specific writing and academic support across every ILM level and pathway, from Level 2 introductory awards through to Level 7 senior leadership and the Coaching & Mentoring pathway."
+    ctaLabel={header.ctaButton.label}
+    ctaHref={header.ctaButton.href}
+  />
+
+  <QualificationsGrid
+    sectionId="level-services"
+    heading={qualifications.heading}
+    subheading={qualifications.subheading}
+    cards={qualifications.cards}
+  />
+
+  <section class="support-services">
+    <div class="container">
+      <h2 class="section-heading">Support Beyond Unit Writing</h2>
+      <p class="section-subheading">Targeted help for the specific parts of ILM assessment candidates get stuck on most often.</p>
+      <div class="info-grid">
+        {supportServices.map((s) => (
+          <a href={s.href} class="info-card info-card--link">
+            <h3 class="info-card__title"><span class="info-card__icon">{s.icon}</span> {s.title}</h3>
+            <p class="info-card__desc">{s.desc}</p>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <FeaturesGrid
+    sectionId={features.sectionId}
+    heading={features.heading}
+    cards={features.cards}
+  />
+
+  <HowItWorks
+    sectionId={howItWorks.sectionId}
+    heading={howItWorks.heading}
+    subheading={howItWorks.subheading}
+    steps={howItWorks.steps}
+  />
+
+  <FAQ sectionId="services-faq" heading="Common Questions About Our Services" items={servicesFaq} />
+
+  <FinalCTA heading={finalCta.heading} subtext={finalCta.subtext} button={finalCta.button} />
+  <Footer
+    logoText={footer.logoText}
+    description={footer.description}
+    columns={footer.columns}
+    copyright={footer.copyright}
+    contactEmail={footer.contactEmail}
+    whatsapp={footer.whatsapp}
+  />
+</Layout>
+
+<style>
+  .support-services {
+    background-color: var(--color-bg-light);
+    padding: 5rem 0;
+  }
+  .info-card--link {
+    display: block;
+    transition: box-shadow 0.2s, transform 0.2s;
+  }
+  .info-card--link:hover {
+    box-shadow: 0 6px 24px rgba(27, 43, 75, 0.08);
+    transform: translateY(-2px);
+  }
+</style>

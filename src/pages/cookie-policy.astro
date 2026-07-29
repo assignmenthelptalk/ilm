@@ -1,0 +1,99 @@
+---
+import config from '../../site-config.json';
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import PageHero from '../components/PageHero.astro';
+import FinalCTA from '../components/FinalCTA.astro';
+
+const { meta, colors, typography, header, footer, finalCta } = config;
+
+const pageTitle = 'Cookie Policy | ILM Assignment Help';
+const pageDescription = 'What cookies this site uses, why, and how to manage them in your browser.';
+---
+
+<Layout
+  title={pageTitle}
+  description={pageDescription}
+  faviconPath={meta.faviconPath}
+  googleFontsUrl={meta.googleFontsUrl}
+  fontFamily={typography.fontFamily}
+  colors={colors}
+>
+  <Header logoText={header.logoText} logoHref="/" navLinks={header.navLinks} />
+
+  <PageHero
+    badge="Legal"
+    crumbLabel="Cookie Policy"
+    h1="Cookie Policy"
+    intro="What cookies this site uses, what they're for, and how to control them in your browser."
+  />
+
+  <main class="page-content">
+    <div class="container">
+      <article class="prose">
+        <span class="last-updated">Last updated: July 2026</span>
+
+        <h2>1. What Cookies Are</h2>
+        <p>
+          Cookies are small text files placed on your device when you visit a website. They help the site remember
+          information about your visit, such as your preferences, or allow certain features, such as live chat, to
+          function correctly.
+        </p>
+
+        <h2>2. Cookies This Site Uses</h2>
+        <table>
+          <thead>
+            <tr><th>Type</th><th>Purpose</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Strictly necessary</td><td>Required for core site functionality, such as remembering your navigation menu state. These cannot be switched off.</td></tr>
+            <tr><td>Tawk.to live chat</td><td>Set when you use the live chat widget, to maintain your chat session. See <a href="https://www.tawk.to/privacy-policy/" target="_blank" rel="noopener noreferrer">Tawk.to's own privacy policy</a> for detail on how it handles data.</td></tr>
+          </tbody>
+        </table>
+        <p>
+          We do not currently run third-party advertising or analytics cookies on this site. If that changes in
+          future, this policy will be updated accordingly.
+        </p>
+
+        <h2>3. How to Manage Cookies</h2>
+        <p>
+          Most browsers let you control or delete cookies through their settings. Blocking all cookies, including
+          strictly necessary ones, may affect how parts of this site function, such as the live chat widget.
+        </p>
+        <ul>
+          <li><strong>Chrome:</strong> Settings → Privacy and security → Cookies and other site data</li>
+          <li><strong>Firefox:</strong> Settings → Privacy & Security → Cookies and Site Data</li>
+          <li><strong>Edge:</strong> Settings → Cookies and site permissions → Manage and delete cookies and site data</li>
+          <li><strong>Safari:</strong> Settings → Privacy → Manage Website Data</li>
+        </ul>
+
+        <h2>4. Changes to This Policy</h2>
+        <p>
+          We may update this policy if the third-party services we use change. The current version is always
+          available at this page.
+        </p>
+
+        <h2>5. Contact Us</h2>
+        <p>
+          Questions about this policy can be sent to <a href={`mailto:${footer.contactEmail}`}>{footer.contactEmail}</a>.
+          See also our <a href="/privacy-policy/">privacy policy</a> for how we handle personal data more generally.
+        </p>
+      </article>
+    </div>
+  </main>
+
+  <FinalCTA heading={finalCta.heading} subtext={finalCta.subtext} button={finalCta.button} />
+  <Footer
+    logoText={footer.logoText}
+    description={footer.description}
+    columns={footer.columns}
+    copyright={footer.copyright}
+    contactEmail={footer.contactEmail}
+    whatsapp={footer.whatsapp}
+  />
+</Layout>
+
+<style>
+  .page-content .container { max-width: 820px; }
+</style>

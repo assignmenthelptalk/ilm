@@ -1,0 +1,91 @@
+---
+import config from '../../site-config.json';
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import PageHero from '../components/PageHero.astro';
+import FAQ from '../components/FAQ.astro';
+import FinalCTA from '../components/FinalCTA.astro';
+
+const { meta, colors, typography, header, footer, finalCta } = config;
+
+const pageTitle = 'Money Back Guarantee | ILM Assignment Help';
+const pageDescription = 'What our money-back guarantee covers, what it does not, and how to claim it.';
+
+const guaranteeFaq = [
+  { question: 'Is the money-back guarantee the same as the refund policy?', answer: 'They overlap but are not identical. The money-back guarantee specifically protects against your order failing to meet the agreed brief or assessment criteria after the revision process. Our refund policy covers a slightly broader set of circumstances, including non-delivery.' },
+  { question: 'Do I lose the guarantee if I request revisions first?', answer: 'No, the opposite: the guarantee requires the revision process to be completed first. Requesting revisions does not affect your guarantee; it is a required step before a guarantee claim can be assessed.' },
+];
+---
+
+<Layout
+  title={pageTitle}
+  description={pageDescription}
+  faviconPath={meta.faviconPath}
+  googleFontsUrl={meta.googleFontsUrl}
+  fontFamily={typography.fontFamily}
+  colors={colors}
+>
+  <Header logoText={header.logoText} logoHref="/" navLinks={header.navLinks} />
+
+  <PageHero
+    badge="Legal"
+    crumbLabel="Money Back Guarantee"
+    h1="Money Back Guarantee: Your Order Is Protected"
+    intro="If your order genuinely fails to meet the agreed brief after the revision process, you are entitled to a refund under the terms below."
+  />
+
+  <main class="page-content">
+    <div class="container">
+      <article class="prose">
+        <span class="last-updated">Last updated: July 2026</span>
+
+        <h2>What the Guarantee Covers</h2>
+        <ul>
+          <li>Work that fails to match the agreed brief, such as the wrong unit, wrong ILM level, or missing core requirements</li>
+          <li>Work that remains below the required standard after our full revision process has been completed</li>
+          <li>Non-delivery of your order past the agreed deadline, where no advance notice of a delay was given</li>
+        </ul>
+
+        <h2>What the Guarantee Does Not Cover</h2>
+        <ul>
+          <li>Scope changes requested after delivery, such as a different topic, unit, or a materially larger word count, which are treated as a new order</li>
+          <li>General dissatisfaction that is not tied to a specific, documented requirement of your brief or assessment criteria</li>
+          <li>Claims made without first completing the standard revision process, so we have not had the opportunity to put things right</li>
+          <li>Requests made more than 14 days after delivery, without an active revision already in progress within that window</li>
+          <li>Your own institution's assessment outcome, since we cannot guarantee a specific grade, only that the work matches the agreed brief and criteria</li>
+        </ul>
+
+        <h2>How to Claim</h2>
+        <p>
+          Contact us at <a href={`mailto:${footer.contactEmail}`}>{footer.contactEmail}</a> or via
+          <a href={`https://wa.me/${footer.whatsapp.replace(/\D/g, '')}`} target="_blank" rel="noopener noreferrer">WhatsApp</a>,
+          with your order details and a specific description of what does not meet the agreed brief or criteria. We
+          will confirm the revision process first; if the concern remains unresolved after that process, we will
+          assess your claim against the terms above within 3–5 business days.
+        </p>
+
+        <p>
+          This guarantee sits alongside our broader <a href="/refund-policy/">refund policy</a>, which covers
+          additional circumstances such as non-delivery, and our <a href="/our-policy/">general service policy</a>.
+        </p>
+      </article>
+    </div>
+  </main>
+
+  <FAQ sectionId="guarantee-faq" heading="Common Questions" items={guaranteeFaq} />
+
+  <FinalCTA heading={finalCta.heading} subtext={finalCta.subtext} button={finalCta.button} />
+  <Footer
+    logoText={footer.logoText}
+    description={footer.description}
+    columns={footer.columns}
+    copyright={footer.copyright}
+    contactEmail={footer.contactEmail}
+    whatsapp={footer.whatsapp}
+  />
+</Layout>
+
+<style>
+  .page-content .container { max-width: 820px; }
+</style>

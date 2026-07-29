@@ -14,9 +14,11 @@ interface Props {
   description: string;
   columns: FooterColumn[];
   copyright: string;
+  contactEmail?: string;
+  whatsapp?: string;
 }
 
-const { logoText, description, columns, copyright } = Astro.props;
+const { logoText, description, columns, copyright, contactEmail, whatsapp } = Astro.props;
 ---
 
 <footer class="footer">
@@ -24,6 +26,16 @@ const { logoText, description, columns, copyright } = Astro.props;
     <div class="footer__brand">
       <span class="footer__logo">{logoText}</span>
       <p class="footer__desc">{description}</p>
+      {(contactEmail || whatsapp) && (
+        <ul class="footer__contact">
+          {contactEmail && (
+            <li><a href={`mailto:${contactEmail}`} class="footer__link">✉ {contactEmail}</a></li>
+          )}
+          {whatsapp && (
+            <li><a href={`https://wa.me/${whatsapp.replace(/\D/g, '')}`} class="footer__link" target="_blank" rel="noopener noreferrer">💬 WhatsApp: {whatsapp}</a></li>
+          )}
+        </ul>
+      )}
     </div>
     {columns.map((col) => (
       <div class="footer__col">
@@ -53,10 +65,17 @@ const { logoText, description, columns, copyright } = Astro.props;
 
   .footer__main {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: 1.4fr 1fr 1fr 1fr;
     gap: 3rem;
     padding-top: 3.5rem;
     padding-bottom: 3rem;
+  }
+
+  .footer__contact {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1.25rem;
   }
 
   .footer__logo {
@@ -114,12 +133,18 @@ const { logoText, description, columns, copyright } = Astro.props;
 
   @media (max-width: 900px) {
     .footer__main {
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
       gap: 2rem;
     }
 
     .footer__brand {
       grid-column: 1 / -1;
+    }
+  }
+
+  @media (max-width: 680px) {
+    .footer__main {
+      grid-template-columns: 1fr 1fr;
     }
   }
 
