@@ -9,12 +9,13 @@ import FinalCTA from '../components/FinalCTA.astro';
 
 const { meta, colors, typography, header, footer, finalCta } = config;
 
-const pageTitle = 'Refund Policy | ILM Assignment Help';
-const pageDescription = 'When a refund is available, when it is not, and how to request one at ILM Assignment Help.';
+const pageTitle = 'Refund Policy and Money-Back Guarantee | ILM Assignment Help';
+const pageDescription = 'When a refund is available, when it is not, what our money-back guarantee covers, and how to request a refund at ILM Assignment Help.';
 
 const refundFaq = [
+  { question: 'Is there a money-back guarantee?', answer: 'Yes. If your order fails to meet the agreed brief or assessment criteria after the revision process, or is not delivered by the confirmed deadline without advance notice, you are entitled to a refund under the terms on this page. We cannot guarantee a specific grade, only that the work matches the agreed brief and criteria.' },
+  { question: 'Do I need to request a revision before I can request a refund?', answer: 'Yes, in almost all cases. Refunds for quality or specification concerns are only considered after you have given us the opportunity to revise the work through our standard revision process. Requesting revisions does not affect your guarantee; it is a required step before a claim can be assessed.' },
   { question: 'How long does a refund take once approved?', answer: 'Approved refunds are typically processed within 5–10 business days. Once processed, funds usually appear within 3–7 business days depending on your payment provider.' },
-  { question: 'Do I need to request a revision before I can request a refund?', answer: 'Yes, in almost all cases. Refunds for quality or specification concerns are only considered after you have given us the opportunity to revise the work through our standard revision process.' },
 ];
 ---
 
@@ -31,19 +32,27 @@ const refundFaq = [
   <PageHero
     badge="Legal"
     crumbLabel="Refund Policy"
-    h1="Refund Policy"
-    intro="When a refund is available, when it isn't, and how to request one."
+    h1="Refund Policy and Money-Back Guarantee"
+    intro="When a refund is available, when it isn't, what our money-back guarantee covers, and how to request one."
   />
 
   <main class="page-content">
     <div class="container">
       <article class="prose">
-        <span class="last-updated">Last updated: July 2026</span>
+        <span class="last-updated">Last updated: November 2026</span>
+
+        <h2>Our Money-Back Guarantee</h2>
+        <p>
+          If your order genuinely fails to meet the agreed brief after the revision process, you are entitled to a
+          refund under the terms below. The guarantee protects your order; it does not cover your own institution's
+          assessment outcome, since we cannot guarantee a specific grade, only that the work matches the agreed brief
+          and criteria.
+        </p>
 
         <h2>When a Refund Is Available</h2>
         <ul>
           <li>The order is not delivered by the confirmed deadline, and no advance notice of a delay was given</li>
-          <li>The work does not match the agreed brief or unit assessment criteria, and this remains unresolved after the standard revision process</li>
+          <li>The work does not match the agreed brief or unit assessment criteria, such as the wrong unit, wrong ILM level or missing core requirements, and this remains unresolved after the standard revision process</li>
           <li>A quality issue you have raised remains unresolved after we have had a full opportunity to revise the work</li>
         </ul>
         <p>Refunds may be full or partial, depending on the extent of the shortfall and how much of the order was affected.</p>
@@ -51,10 +60,11 @@ const refundFaq = [
         <h2>When a Refund Is Not Available</h2>
         <ul>
           <li>The work has already been revised to meet the agreed brief and assessment criteria</li>
-          <li>You are requesting changes that go beyond the original scope of the order (a new topic, a different unit, or a materially larger word count)</li>
+          <li>You are requesting changes that go beyond the original scope of the order (a new topic, a different unit, or a materially larger word count), which are treated as a new order</li>
           <li>Specific concerns were not shared with us, so we were not given the opportunity to revise the work</li>
           <li>The request is made more than 14 days after delivery, without an active revision request already in progress within that window</li>
           <li>The dissatisfaction is general and not tied to a specific, documented assessment criterion or brief requirement</li>
+          <li>The concern is your own institution's assessment outcome or grade</li>
         </ul>
         <p>
           Refunds are not issued for a first draft alone, without a revision attempt first, since our standard
@@ -65,16 +75,17 @@ const refundFaq = [
         <p>
           Contact us at <a href={`mailto:${footer.contactEmail}`}>{footer.contactEmail}</a> or via
           <a href={`https://wa.me/${footer.whatsapp.replace(/\D/g, '')}`} target="_blank" rel="noopener noreferrer">WhatsApp</a>,
-          quoting your order details and the specific reason for the request. We aim to respond to refund requests
-          within 3–5 business days. Where a refund is approved, processing typically takes 5–10 business days, plus
-          your payment provider's own processing time.
+          quoting your order details and a specific description of what does not meet the agreed brief or criteria.
+          We will confirm the revision process first; if the concern remains unresolved after that process, we will
+          assess your request against the terms above. We aim to respond to refund requests within 3–5 business days.
+          Where a refund is approved, processing typically takes 5–10 business days, plus your payment provider's own
+          processing time.
         </p>
 
         <h2>Related Policy</h2>
         <p>
-          Our <a href="/money-back-guarantee/">money-back guarantee</a> sets out the specific conditions under which
-          a full refund is guaranteed. See also our <a href="/our-policy/">general service policy</a> for how
-          revisions and delivery work.
+          See our <a href="/our-policy/">general service policy</a> for how revisions and delivery work, and our
+          <a href="/terms-conditions/">terms and conditions</a>, which this policy forms part of.
         </p>
       </article>
     </div>
